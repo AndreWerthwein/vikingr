@@ -1,0 +1,2531 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/reset.min.css" />
+  <link rel="stylesheet" href="css/basis.css" />
+  <link rel="stylesheet" href="css/struktur.css" />
+  <link rel="stylesheet" href="css/formulare.css" />
+  <link rel="stylesheet" href="css/animation.css" />
+  <link rel="stylesheet" href="css/verbote.css" />
+
+  <title>Víkingr — Aufstieg und Niedergang eines Reiches</title>
+</head>
+
+<body>
+  <nav id="ScrollingNavigation">
+    <i class="material-icons Anzeige" id="ScrollingOben">keyboard_arrow_up</i>
+    <i class="material-icons Anzeige" id="ScrollingUnten">keyboard_arrow_down</i>
+    <i class="material-icons Anzeige" id="ScrollingRechts">keyboard_arrow_right</i>
+    <i class="material-icons" id="ScrollingLinks">keyboard_arrow_left</i>
+  </nav>
+
+  <nav id="ThemenNavigation">
+    <section>
+      <i class="material-icons Anzeige" id="ScrollingStart">first_page</i>
+    </section>
+    <section>
+      <ul data-navigation="Sprache">
+        <li data-sprache="Deutsch">
+          <span data-sprache="Deutsch" class="Eingliedern">Deutsch</span>
+          <span data-sprache="Englisch">German</span>
+        </li>
+        <li data-sprache="Englisch">
+          <span data-sprache="Deutsch" class="Eingliedern">Englisch</span>
+          <span data-sprache="Englisch">English</span>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <ul data-navigation="Thema">
+        <li data-themennavigation="">Aufstieg</li>
+        <li data-themennavigation="">Höhepunkt</li>
+        <li data-themennavigation="">Niedergang</li>
+        <li class="Kommentar">
+          <a href="dokumentation.html" target="_blank" rel="noopener noreferrer nofollow">
+            <span data-sprache="Deutsch" class="Eingliedern">[Dokumentation]</span>
+            <span data-sprache="Englisch">[Documentation]</span>
+          </a>
+        </li>
+        <li class="Kommentar">
+          <a href="quellen.html" target="_blank" rel="noopener noreferrer nofollow">
+            <span data-sprache="Deutsch" class="Eingliedern">[Quellen]</span>
+            <span data-sprache="Englisch">[Sources]</span>
+          </a>
+        </li>
+        <li class="Kommentar"><a href="runen.html" target="_blank" rel="noopener noreferrer nofollow">[Runen Icon Font]</a></li>
+      </ul>
+    </section>
+    <section data-popup="Karte">
+      <p>[X,Y]</p>
+    </section>
+    <section data-popup="Steuerung">
+      <p>[?]</p>
+    </section>
+  </nav>
+
+  <!-- Java Script Warnung -->
+  <marquee id="JavaScriptWarnung" class="Anzeige">Bitte aktivieren sie Java Script auf dieser Website für den vollen Funktionsumfang&nsbp;&nsbp;|&nbsp;&nbsp;Please activate Java Script for this website, to experience the full functionality.</marquee>
+
+  <div id="Zeile">
+    <!-- [0,0] -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[0,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Mytholgie</span>
+            <span data-sprache="Englisch">The Mythology</span>
+          </h2>
+        </div>
+
+        <div class="VierSpalten">
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern"><q>Nordische Mythologie</q><br> — eine Religion?</span>
+              <span data-sprache="Englisch"><q>Norse Mythology</q><br> — a religion?</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Es ist problematisch die <q>Nordische Mythologie</q> als Religion zu bezeichnen, vor allem nach der modernen, begrifflichen Auffassung. Es gab also in diesem Sinne auch keine übergeordneten Instanzen, die die Verbreitung oder die Inhalte dieser Mythologie bestimmt oder geordnet haben.</span>
+              <span data-sprache="Englisch">It is problematic to define the <q>Norse Mythology</q> as a religion, especially in relation to modern understanding of the word religion. Regarding this, there were no superior instances, which dictated or structured the propagation or the contents of this Mythology.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Es ist also schwer zwischen echten und unechten Inhalten zu differenzieren. [Die Wahrheit von Glaubensinhalten ist ohnehin immer von dem Glaubenden/<wbr>Praktizierenden abhängig.]</span>
+              <span data-sprache="Englisch">So it is difficult to differentiate between true and false contents. [The truth of religious contents is dependent to the believers/practitioners.]</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Doch mit diesem Wahrheitsgehalt oder historischen Aspekten der <q>Nordischen Mythologie</q> wollen wir uns hier nicht beschäftigen. Wir möchten hier das allgemein Bekannte, als gültig und wahr voraussetzen.</span>
+              <span data-sprache="Englisch">But here we do not want to pay any attention to the question of truth or historic aspects regarding the <q>Norse Mythology</q>. Here we want to understand the generally known, as valid and true.</span>
+            </p>
+          </section>
+          <section class="AusgleichEineZeileUeberschrift">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Welten der Götter</span>
+              <span data-sprache="Englisch">The Words of the Gods</span>
+            </h4>
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Welten der Götter und die sie bewohnenden Wesenheiten, gehen aus dem <abbr title="ginːuŋgagap">Ginnungagap</abbr> [<q>Kluft der Klüfte</q>] hervor. Die Urkuh <abbr title="Audhumbla">Auðhumbla</abbr> [<q>Die Milchreiche</q>] leitete den Ursprung der ersten Götter — <abbr title="">Óðinn</abbr>, <abbr title="">Vili</abbr> und <abbr title="Ve">Vé</abbr> — ein. Diese ersten Götter waren wiederrum für die Schöpfung der Welt verantwortlich. [Zu diesem eigentlichen Schöpfungsprozess gibt es mehrere Theorien.]</span>
+              <span data-sprache="Englisch">The worlds of the Gods and the beings inhabiting them, are born from the <abbr title="ginːuŋgagap">Ginnungagap</abbr> [<q>Gaping Abyss</q>]. The primeval cow <abbr title="Audhumbla">Auðhumbla</abbr> [<q>Hornless Cow</q>] induced the origin of the first Gods — <abbr title="">Óðinn</abbr>, <abbr title="">Vili</abbr> and <abbr title="Ve">Vé</abbr>. These first gods were responsible for the creation of the World. [There are quite a few theories on the process of Creation.]</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Zum einen gibt es das, was es auch in vielen der heutigen Weltreligionen gibt, das <q>Böse</q>. Hier jedoch mit einem gewissen fantastischen Anklang. Das <q>Böse</q> wird hier durch Riesen und Ungeheuer repräsentiert, den neben ihrer Wesenheit noch der Ursprung der Naturkatastrophen zugeschrieben wird.</span>
+              <span data-sprache="Englisch">There was, as well as in a lot of the modern world religions, the <q>Evil</q>. But within the <q>Norse Mythology</q> is has a more fantastic expression. The <q>Evil</q> is represented by Giants and Monsters, who are thought to be — next to their own essence — responsible for natural disasters.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Neben dem <q>Bösen</q> gibt es noch zwei weitere Geschlechter, die <abbr title="/ˈʌɪsɪə/">Æsir</abbr> und <abbr title="/ˈvɑːnɪr/">Vanir</abbr>.</span>
+              <span data-sprache="Englisch">Next to the <q>Evil</q> there were two more lineages of Gods, the <abbr title="/ˈʌɪsɪə/">Æsir</abbr> and <abbr title="/ˈvɑːnɪr/">Vanir</abbr>.</span>
+            </p>
+          </section>
+          <section class="AusgleichZweiZeilenUeberschrift">
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die <abbr title="/ˈvɑːnɪr/">Vanir</abbr> [<q>Die Glänzenden</q>] sind das zweitälteste Göttergeschlecht. Sie wurden als weise und geschickt besungen und galten als unsterblich. Unsterblich natürlich so lange, wie sie keiner erschlug. Sie wurden auch als Götter der Fruchtbarkeit verehrt.</span>
+              <span data-sprache="Englisch">The <abbr title="/ˈvɑːnɪr/">Vanir</abbr> are the second-oldest lineage of Gods. They were praised as wise and skillful, they are also said to be immortal. But immortal only, as long as they were not slain. They were also praised as gods of fertility.</span>
+            </p>
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die <abbr title="/ˈʌɪsɪə/">Æsir</abbr>, das jüngere Göttergeschlecht, ist dasjenige, welches uns heute noch aus Erzählungen und Verfilmungen bekanntesten sein dürfte. Sie zeichnen sich durch besondere Eigenschaften aus; kriegerisch und herrschend. [Hier sind bereits erste Parallelen zu den Víkingr zu erkennen.] Auch sie lebten ewig, solange auch sie nicht erschlagen wurden. Ihre Unsterblichkeit war jedoch von den <abbr title="/ˈvɑːnɪr/">Vanir</abbr> abhängig.</span>
+              <span data-sprache="Englisch">The <abbr title="/ˈʌɪsɪə/">Æsir</abbr>, the younger lineage of gods, is the one, which we today — through stories and movies — know the most about. They stand out through their own special characteristics; warlike and ruling. [There are a few similarities to the Víkingr to be seen already.] They were immortal, but also only as long as they were not slain. Their immortality was depending on the <abbr title="/ˈvɑːnɪr/">Vanir</abbr>.</span>
+            </p>
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die <abbr title="/ˈvɑːnɪr/">Vanir</abbr> und <abbr title="/ˈʌɪsɪə/">Æsir</abbr> bilden den Gegenpol zu den Riesen und Ungeheuern — das <q>Gute</q>.</span>
+              <span data-sprache="Englisch">The <abbr title="/ˈvɑːnɪr/">Vanir</abbr> and <abbr title="/ˈʌɪsɪə/">Æsir</abbr> represent the opposite of the Giants and Monsters — the <q>Good</q>.</span>
+            </p>
+          </section>
+          <section class="AusgleichZweiZeilenUeberschrift">
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Zu Anfang gab es Zwist zwischen den beiden Göttergeschlechtern, die zu einem Krieg zwischen den <abbr title="/ˈvɑːnɪr/">Vanir</abbr> und <abbr title="/ˈʌɪsɪə/">Æsir</abbr>. Ein Krieg, in dem die <abbr title="/ˈʌɪsɪə/">Æsir</abbr> siegreich waren und dann zu der Allianz zwischen <abbr title="/ˈvɑːnɪr/">Vanir</abbr> und <abbr title="/ˈʌɪsɪə/">Æsir</abbr> führte.</span>
+              <span data-sprache="Englisch">In the beginning there was a dispute between both of the lineages of Gods, which lead to the war between the <abbr title="/ˈvɑːnɪr/">Vanir</abbr> and <abbr title="/ˈʌɪsɪə/">Æsir</abbr>. A war, which ended with the victory of the <abbr title="/ˈʌɪsɪə/">Æsir</abbr> and lead to the alliance between the <abbr title="/ˈvɑːnɪr/">Vanir</abbr> and <abbr title="/ˈʌɪsɪə/">Æsir</abbr>.</span>
+            </p>
+
+            <div class="UeberschriftInAbsatzAbstand"></div>
+
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Gut und Böse</span>
+              <span data-sprache="Englisch">Good & Evil</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Das <q>Böse</q> stellt eine ständige Gefahr für die unsere Welt dar, die sich zu zerstören suchten. Nur die Allianz aus <abbr title="/ˈvɑːnɪr/">Vanir</abbr> und <abbr title="/ˈʌɪsɪə/">Æsir</abbr> hält das <q>Böse</q> in Schach und vermag es so die Zerstörung unserer Welt einstweilig zu verhindern. Zumindest solange bis die Welt zerstört wird, um dann erneut zu entstehen.</span>
+              <span data-sprache="Englisch">The <q>Evil</q> is a continuous danger for our world, as it seeks to destroy is. Only the alliance <abbr title="/ˈvɑːnɪr/">Vanir</abbr> and <abbr title="/ˈʌɪsɪə/">Æsir</abbr> is able to keep the balance and to prevent the destruction of the world — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr> — for now. A protection which holds up, until the world is destroyed and then reborn.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Wir wollen uns im Weiteren auf die <abbr title="/ˈʌɪsɪə/">Æsir</abbr> und deren Ähnlichkeiten zu den Víkingr konzentrieren.]</span>
+              <span data-sprache="Englisch" class="Kommentar">[In the following we ant to focus on the <abbr title="/ˈʌɪsɪə/">Æsir</abbr> and their similarities to the Víkingr.]</span>
+            </p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[0,&nbsp;0]</h1>
+        </div>
+        <div class="BildTextDreiEins">
+          <section class="Text">
+            <p class="Zitat">
+              <span data-sprache="Deutsch" class="Eingliedern"><q>Seefahrer, der sich auf langer Fahrt von der Heimat enternt ...</q></span>
+              <span data-sprache="Englisch"><q>Seafarers, who are away from home, on a long journey ...</q></span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Wikinger lassen sich ihrer Tätigkeit nach definieren. Sie waren <q>Seefahrer, die sich auf langer Fahrt von der Heimat entfernten ...</q> und genau das machte sie zu Wikingern. So gab es zur Zeit der Wikinger viele Stämme mit unterschiedlichen Ursprüngen aus vielen Teilen der Welt.</span>
+              <span data-sprache="Englisch">The Vikings are best to be defined by their activities. They were <q>Seafarers, who are away from home, on a long journey ...</q> and this is exactly what made them Vikings. During the time of the Vikings, there were quite a few tribes with different origins from different parts of the world.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Ära der Wikinger ist wahrlich faszinierend, vor allem im Zusammenhang mit der <q>Nordischen Mythologie</q>. Auf der einen Seite stehen die Legenden, die die Ehrbarkeit und (kriegerische) Überlegenheit der Götter besingen. Auf anderen Seite stehen die seefahrenden, kriegerischen Wikinger. Welche Parallelen gibt es zwischen den Göttern von <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> und den Wikingern? Sind die Götter von <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> nur eine Projektion des Wikingergeistes? Wer hat wen nach wessen Ebenbild geschaffen?</span>
+              <span data-sprache="Englisch">The Era of the Vikings is truly fascinating, especially in relation to the <q>Norse Mythology</q>. On the one hand, there were the Legends praising the respectability and (warrior-like) superiority of the Gods. On the other hand, there were the seafaring, warrior-like Vikings. Which similarities can be seen between the Gods of <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> and the Vikings? Are the Gods of <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> a mere projection of the Viking-Spirit? Who created who by whose own likeness?</span>
+            </p>
+          </section>
+          <section class="Bild">
+            <img src="" alt="Wikinger — Einleitungsillustration" longdesc="" />
+            <span data-sprache="Englisch"></span>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[0,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Etymologie</span>
+            <span data-sprache="Englisch">The Etymology</span>
+          </h2>
+        </div>
+        <div class="ZweiSpalten">
+          <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+        </div>
+
+        <div class="VierSpalten">
+          <section class="Vermutung">
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section class="Vermutung">
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section class="Vermutung">
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [1,0] -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[1,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Götter von Ásgarðr</span>
+            <span data-sprache="Englisch">The Gods of Ásgarðr</span>
+          </h2>
+        </div>
+        <div class="SliderUndText">
+          <section class="Slider">
+            <div class="Links" data-slideshow="GoetterVonAsgard">
+              <i class="material-icons">keyboard_arrow_left</i>
+            </div>
+            <div class="Slides">
+              <section data-slideshow="GoetterVonAsgard" class="Anzeige Einblenden">
+                <h4>Thor</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+
+              <section data-slideshow="GoetterVonAsgard">
+                <h4>Loki</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+
+              <section data-slideshow="GoetterVonAsgard">
+                <h4>Odin</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+            </div>
+            <div class="Rechts" data-slideshow="GoetterVonAsgard">
+              <i class="material-icons">keyboard_arrow_right</i>
+            </div>
+          </section>
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Æsir — Das herrschende Göttergeschlecht</span>
+              <span data-sprache="Englisch">Æsir — The ruling lineage of Gods</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Das jüngere Göttergeschlecht zeichnet sich vor allem durch eine Vielzahl kriegerischer Eigenschaften aus. Den Göttern dieses Geschlechts werden vor allem Macht und Stärke zugeschrieben. Im eigentlichen Sinne sind <abbr title="/ˈʌɪsɪə/">Æsir</abbr> aber sterblich. Nur durch ihre Abhängigkeit von den <abbr title="/ˈvɑːnɪr/">Vanir</abbr> erlangen sie ihre Unsterblichkeit oder unendlicher Jugend, genauer: <q>Idun</q> [<q>Göttin der Unsterblichkeit</q>].</span>
+              <span data-sprache="Englisch">The younger lineage of gods is usually depicted with a lot of different warrior-like properties. The gods of this lineage are seen as mighty and strong. But in general the <abbr title="/ˈʌɪsɪə/">Æsir</abbr> are mortal. It is only their dependency to the <abbr title="/ˈvɑːnɪr/">Vanir</abbr>, which is presenting them with immortality or eternal youth, more precisely: <q>Idun</q> [<q>Goddess of Immortality</q>].</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Der Sitz der <abbr title="/ˈʌɪsɪə/">Æsir</abbr> ist <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> [<q>Heim der Æsir</q>]. [<abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> ist über den <abbr title="Asbru">Ásbrú</abbr> [<q><abbr title="/ˈbɪvrɒst/">Bifröst</abbr></q>, <q>Æsirbrücke</q>] mit <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr> verbunden.] In den Beschreibungen von <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> stehen der ungesehene Reichtümer (Gold, Edelsteine), wie auch die Unbezwingbarkeit der Festung im Vordergrund. Diesen Beschreibungen nach ist <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> als eine Art Festung zu verstehen, die sich aus den Palästen der zwölf Götter zusammensetzt. Der wohl kriegerischen Natur der Götter entsprechend, bestehen Gitter aus goldenen Speeren und die Festung selbst ist von unbezwingbaren Mauern umgeben.</span>
+              <span data-sprache="Englisch">The domicile of the <abbr title="/ˈʌɪsɪə/">Æsir</abbr> is <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> [<q>Home of the <abbr title="/ˈʌɪsɪə/">Æsir</abbr></q>]. <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> is connected to <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr> via the <abbr title="Asbru">Ásbrú</abbr> [<q><abbr title="/ˈbɪvrɒst/">Bifröst</abbr></q>, <q>Æsir's Bridge</q>]. Descriptions especially depict of <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> the unseen riches (Gold, Gems), as well as the impregnability of the castle. These descriptions make you understand <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> as a castle consisting of the twelve palaces of the Gods. Fitting the warrior-like spirit of the Gods the fences are made of golden spears and the castle itself is surrounded by impregnable walls.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Als Heimatwelt der <abbr title="/ˈvɑːnɪr/">Vanir</abbr> ist Vanaheimr [<q>Heim der <abbr title="/ˈvɑːnɪr/">Vanir</abbr></q>] bekannt, während <abbr title="">Álfheimr</abbr> die Heimat der Elfen/<wbr>Alben darstellt. Die vollständige Götterwelt, mit den Ländern und den sie bewohnenden Göttern wird in <q>Die Länder der Himmelswelten</q> zusammengefasst.]</span>
+              <span data-sprache="Englisch" class="Kommentar">[The home of the <abbr title="/ˈvɑːnɪr/">Vanir</abbr> is Vanaheimr [<q>Home of the <abbr title="/ˈvɑːnɪr/">Vanir</abbr></q>]. <abbr title="">Álfheimr</abbr> on the other hand is the home of the Elves/<wbr>Alpen. You will find a complete overview on the different countries and their inhabitants in the chapter <q>The countries of the heavenly Worlds</q>]</span>
+            </p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[1,&nbsp;0]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Ära der Víkingr</span>
+            <span data-sprache="Englisch">The era of the Víkingr</span>
+          </h2>
+        </div>
+
+        <div class="EinsDrei">
+          <section class="Eins">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Datierbarkeit & Differenzierbarkeit</span>
+              <span data-sprache="Englisch">Datability & Differentiation</span>
+            </h4>
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Es ist immer besonders schwierig, den Beginn oder Aufstieg eines Reiches präzise zu datieren. Dies trifft auch in besonderer Art und Weise auf den Aufstieg der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> zu. Diese Schwierigkeiten in der Datierbarkeit ziehen sich allerdings durch die gesamte historische Entwicklung der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.</span>
+              <span data-sprache="Englisch">It always is especially difficult to precisely date the beginning or rise of an empire. This also applies to the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> in a very special way. These difficulties in dating historic events are a part of the whole historic development of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Da es auf einem <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Raubzug auch zu einem Führungswechsel kommen kann oder ein Raubzug zu einer Invasion oder sogar einem Kriegszug ausarten kann, ist es oft auch schwierig die Aktivitäten der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> von den Aktivitäten der Normannen zu trennen.</span>
+              <span data-sprache="Englisch">Since there can be a change of leadership during a raid or since it is possible that a raid expands to an invasion or even a war-like expedition, it can be very difficult to differentiate between activities of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> and the activities of the Normans.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die nachfolgend dargestellten Ereignisse [vor allem Raubzüge, Plünderungen] fassen kurz wesentliche historische Ereignisse zusammen, die entweder die Auswirkungen durch die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auf ihre Umwelt oder den rückwirkenden Einfluss auf den historischen Weg der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> aufzeigen.</span>
+              <span data-sprache="Englisch">The subsequently shown events [especially raids, pillages] sum up the most important historical events, where either <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> had a great influence on their surroundings or the events had retrospective effects on the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> themselves and their way through history.</span>
+            </p>
+          </section>
+          <section class="Drei">
+            <div class="ZeitstrahlBeschriftung">
+              <p>[700]</p>
+              <p>[793]</p>
+              <p>[808]</p>
+            </div>
+            <div class="ZeitstrahlLinie"></div>
+            <div class="ZeitstrahlInhalt DreiZeitstrahlParagrafen">
+              <section>
+                <i class="material-icons">keyboard_arrow_up</i>
+
+                <br>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Ein neues Handelszentrum</span>
+                  <span data-sprache="Englisch">A new Center of Trade</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die Stadt Ribe an der westlichen Küste Jütlands <span class="Kommentar">[Dänemark]</span> wird Zentrum des Handels.</span>
+                  <span data-sprache="Englisch">The city of Ribe on the westcoast of Jutland <span class="Kommentar">[Denmark]</span> becomes the new center of trade.</span>
+                </p>
+              </section>
+              <section>
+                <i class="material-icons">keyboard_arrow_up</i>
+
+                <br>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Kloster <q>Lindisfarne</q></span>
+                  <span data-sprache="Englisch">Monastery <q>Lindisfarne</q></span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Um den Aufstieg der Seemacht <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> datieren zu können, wurde der erste bekannte Raubzug der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> — die Plünderung des Klosters <q>Lindisfarne</q> [England] aus dem Jahre 793 — gewählt.</span>
+                  <span data-sprache="Englisch">To be able to date the Rise of the naval power <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> the first known raid of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> — the pillage of the monastery <q>Lindisfarne</q> [England] in the year 793 — was chosen.</span>
+                </p>
+              </section>
+              <section>
+                <i class="material-icons">keyboard_arrow_up</i>
+
+                <br>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Ein Sieg mit Folgen ...</span>
+                  <span data-sprache="Englisch">A Victory with consequences ...</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Der Sieg über die Westsachsen erlaubte den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> die Ausweitung ihrer Angriffe, Überfälle und Plünderungen auf Irland.</span>
+                  <span data-sprache="Englisch">The victorious battle of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> against the west saxons, allowed them to expand their attacks, raids and pillages in Ireland.</span>
+                </p>
+              </section>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[1,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Krieger der Meere</span>
+            <span data-sprache="Englisch">The Warriors of the Seas</span>
+          </h2>
+        </div>
+
+        <div class="BildTextZweiEins">
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Der Schiffsbau</span>
+              <span data-sprache="Englisch">The Shipbuilding</span>
+            </h4>
+            <div>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Beinahe ebenso bekannt wie die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> selbst und die Gräueltaten, die sie verübten, waren die Schiffe der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Beinahe auch ebenso gefürchtet. Es ist also nicht verwundernd, das die Schiffe der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auch massiv zu ihrem Erfolg beigetragen haben.</span>
+                  <span data-sprache="Englisch">Almost as famous as the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> themselves and their pillages and attacks, were the ships of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Almost equally dreaded. So it is no surprise that the ships of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> had a massive impact on their success.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Gewiss gab es viele Faktoren, die den Aufstieg der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> beeinflusst haben. Doch einer der maßgeblichen Faktoren war der — für die Zeit — fortgeschrittene Schiffsbau. Denn eben dieser trug zu den schnellen, überraschenden und durchschlagenden Angriffen, Überfällen und Plünderungen bei.</span>
+                  <span data-sprache="Englisch">Of course, there were quite a few factors, influencing the rise of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. But one of the most influencial factors was the — for their time and age — most advanced shipbuilding craftsmanship. This is what made the — <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-like — quick and surprising attacks, raid and pillages of great impact possible.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die Schiffe der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> lagen stets lang und schmal im Wasser. Die Schiffe hatten einen Mast mit einem (oft mehrfarbigen) Segel und dazu dichte Reihen von Ruderriemen, die von je einem Mann gerudert wurden. Die Schiffe der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> wurden meist nach der Anzahl an Ruderriemen-Paare benannt.</span>
+                  <span data-sprache="Englisch">The ships of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were lying, narrow and long, in the water. Their ships had a single mast and a single (often multicolored) sail. Additionally, they also had narrow rows of rowing belts, with were rowed by one man each. The ships of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were often named by their number of pairs of rowing belts.</span>
+                </p>
+              </section>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Der nautische Erfolg der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> beschränkte sich jedoch nich allein auf den Schiffbau. Man sagte den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> darüber hinaus auch herausragende Fähigkeiten in Seefahrt und vor allem in der Navigation auf See nach. Leider habe keine der verwendeten Instrumente die Jahrhunderte bis in die Neuzeit überdauert. Auch die Fähigkeiten der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> selbst sind kaum dokumentiert.</span>
+                  <span data-sprache="Englisch">The nautic success of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was not limited to their craftsmanship in shipbuilding. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are also said to have had exceptional skills in sailing and navigation on the sea. Unfortunately there are none of their instruments, that survived the centuries into modern days. Also the skills of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> themselves were documented too well.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die umfangreichen Überfälle, die die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> an vielen Enden der Welt verübten sind hier jedoch das Zeugnis ihrer Fähigkeiten. Weiterhin segelten die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> bis nach Nordamerika und besiedelten darüber hinaus Island und Grönland, was ihre Fähigkeiten in der Navigation nur noch unterstreichen dürfte.</span>
+                  <span data-sprache="Englisch">The volume of all the attacks, raids and pillages of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> all over the world is one evidence for their nautic skills. Furthermore, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> sailed to North America and also settled in Island and Greenland, which should only underline their skills in navigation on sea.</span>
+                </p>
+              </section>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [2,0] -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[2,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Mit den Waffen der Götter</span>
+            <span data-sprache="Englisch">The Armour of the Gods</span>
+          </h2>
+        </div>
+        <div class="SliderUndText">
+          <section class="Slider">
+            <div class="Links" data-slideshow="WaffenDerGoetter">
+              <i class="material-icons">keyboard_arrow_left</i>
+            </div>
+            <div class="Slides">
+              <section data-slideshow="WaffenDerGoetter" class="Anzeige Einblenden">
+                <h4>Thor</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+
+              <section data-slideshow="WaffenDerGoetter">
+                <h4>Loki</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+
+              <section data-slideshow="WaffenDerGoetter">
+                <h4>Odin</h4>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </section>
+            </div>
+            <div class="Rechts" data-slideshow="WaffenDerGoetter">
+              <i class="material-icons">keyboard_arrow_right</i>
+            </div>
+          </section>
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Sagenumwobene, magische Artefakte</span>
+              <span data-sprache="Englisch">Legendary, magic Artefacts</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die nordische Mythologie kennt nicht nur eine Vielzahl von Göttern mit unterschiedlichen Zuständigkeitsbereichen und faszinierenden Fähigkeiten, sondern auch beinahe ebenso viele Artefakte. Artefakte, die den Göttern gehörten. Artefakte, die auch nur die Götter wahrhaftig zu nutzen verstanden. So manches Mal war es auch so, dass es auch eben diese Gegenstände waren, die den Göttern ihre überlegene Macht verliehen. Nicht selten mussten sich auch die Götter als würdig erweisen, diese Artefakte zu tragen.</span>
+              <span data-sprache="Englisch">The Norse Mythology not only knows a multitude of Gods with different responsibilities, but also knows almost as many Artifacts. Artifacts, that were owned by the Gods. Artifacts, which could only be truly possessed by Gods. A few times the these Artifacts themselves also were the origin of the superior powers of the Gods carrying them. Not too rarely also the Gods had to prove them worthy to able to carry the Artifacts.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Wie auch viele der berühmteren Götterfiguren ziehen auch diese Artefakte auch heute noch großes Interesse auf sich. Wie schon zur Zeit der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> — vor einigen Jahrhunderten — findet man auch heute noch viele Schmuckstücke, die sich entweder nur oberflächlich Stilzitaten der nordischen Mythologie bedienen oder sich sogar vollständig alt-nordischen Symbolik annehmen. Das wohl bekannteste Beispiel dafür ist wohl <abbr title="/ˈmjœlnɪr/">Mjǫllnir</abbr>, der in Form des eisernen, reich verzierten Hammers auch heute noch an einer Kette getragen wird.</span>
+              <span data-sprache="Englisch">Like a lot of the more famous Gods, the Artifacts are still of interest today. As well as at the time of <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> —  a few Centuries ago — there are is still jewelry, which either use old-norse Styles in a superficial or which actually fully carry the old-norse symbolism. The most famous example for this might be <abbr title="/ˈmjœlnɪr/">Mjǫllnir</abbr>, which is often seen as a richly detailed hammer worn on a necklace.</span>
+            </p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[2,&nbsp;0]</h1>
+        </div>
+        <div class="Zeitstrahl">
+          <div class="ZeitstrahlBeschriftung OhneErlaeuterndeSpalte">
+            <p>[836]</p>
+            <p>[845]</p>
+            <p></p>
+            <p>[881|882]</p>
+          </div>
+          <div class="ZeitstrahlLinie"></div>
+          <div class="ZeitstrahlInhalt VierZeitstrahlParagrafen">
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">Heiðabýr</span>
+                <span data-sprache="Englisch">Heiðabýr</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Mit der Zerstörung der slawischen Stadt Reric und Gründung einer der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Siedlung Heiðabýr, entsteht ein wichtiger Handelsknoten.</span>
+                <span data-sprache="Englisch">With the destruction of the Slavic city Reric and the founding of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Settlement Heiðabýr, a new and important point of trading emerges.</span>
+              </p>
+            </section>
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">Das Lösegeld</span>
+                <span data-sprache="Englisch">The Ransom</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Im Jahr 845 kaufte sich Paris für rund 7.000 Pfund Silber <span class="Kommentar">[3.500 kg]</span> von den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> frei.</span>
+                <span data-sprache="Englisch">In the year 845 Paris pays about 7.000 pounds of Silver <span class="Kommentar">[3.500 kg]</span> to the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> for their freedom.</span>
+              </p>
+            </section>
+            <section></section>
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">Angriffe im Rheinland</span>
+                <span data-sprache="Englisch">Attacks in the Rhineland</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> greifen massiv Städte im Rheinland an; Lüttich, Utrecht, Köln, Aachen, Trier und viele weitere.</span>
+                <span data-sprache="Englisch">The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> massively attack cities in the Rhineland; Liege, Utrecht, Cologne, Aachen, Trier and more.</span>
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[2,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Mit den Waffen der Víkingr</span>
+            <span data-sprache="Englisch">The Armour of the Víkingr</span>
+          </h2>
+        </div>
+        <div class="BildTextZweiEins">
+          <section class="Text">
+            <div>
+              <section>
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die Waffen des Barbaren</span>
+                  <span data-sprache="Englisch">The Weapons of the Barbarian</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Das vorherrschende Bild des <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> ist das den Barbaren. Unerschrocken, kampflustig, brutal und von unglaublicher Schlagkraft. Ein Bild, das sich in gewisser Weise auch die gewählten Waffen der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> zurückzuführen ist. Es gab zwar unter den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auch den Pfeil und Bogen. Dieser kam jedoch selten zum Einsatz. Häufiger dagegen waren Speer, Schwert und Streitaxt. Während Speer und Schwert meist parallel zu einem Schild geführt wurden, war dies bei einer Streitaxt nicht möglich. Der Einsatz letzterer beruhte auch brachialer Schlaggewalt und dem Schrecken, die eben dieser Waffe vorauseilte.</span>
+                  <span data-sprache="Englisch">The predominant image of a <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> is the image of a Barbarian. Dauntless, ructious, brutal and of unbelievable power of impact. An image, which — in a certain way — is mirrored in <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>'s weapons of choice. There were <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> with bow and arrow, but there were only a few. More often there were Spear, Sword and Battleaxe. Commonly Spear and Sword were used in combination with a Shield. This was not possible using a Battleaxe. The use of the latter was based on brute force and the fear, the weapon inflicted on the enemy.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Wie auch in anderen — nicht zwangsläufig ähnlich kriegerischen — Kulturen war die Feinheit, mit der die Waffe gearbeitet oder verziert war, von dem Status des Führenden abhängig. Die Waffe eines Stammesfürsten oder eines angesehenen Kriegers ist so wohl denkbar einfach von den Waffen der anderen Stammesmitglieder zu unterscheiden.</span>
+                  <span data-sprache="Englisch">As well as in other — not necessarily similar warrior-like — cultures, the fineness with which the weapon was forged or decorated, depended on the status of its bearer. The weapon of a tribal leader or a widely respected warrior would be way different from the weapons of simple tribal members.</span>
+                </p>
+              </section>
+              <section>
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die Rüstung des Barbaren</span>
+                  <span data-sprache="Englisch">The Armour of the Barbarian</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Was die Rüstung des typischen <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> angeht, verhält es sich ähnlich, wie bei der Bewaffnung. Die Vollständigkeit, wie auch die Ausführung <span class="Kommentar">[metallener Helm, lederne Kappe]</span> der Rüstung war, von dem Ansehen und damit auch in gewisser Weise den Mitteln des <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> abhängig. Außerdem war — wie bereits angedeutet — die Rüstung auch von der Bewaffnung abhängig. Üblicherweise trugen die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> jedoch Helm, Schild und etwas seltener auch ein Kettenhemd. Schließlich erfordern manche Waffen auch eine erhöhte Beweglichkeit.</span>
+                  <span data-sprache="Englisch">The Armour of the typical <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was depending on similar conditions as their weapons. The completeness, as well as the execution <span class="Kommentar">[metallic helmet,  leathery cap]</span> of the Armour, were greatly depending on the social as well as on the financial status of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. As mentioned before, the Armour also depended on the weapons used. Commonly the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> wore a helmet, a shield and not as frequently chain Armour. Of course, some weapons need more flexibility than others.</span>
+                </p>
+
+                <div class="UeberschriftInAbsatzAbstand"></div>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die Hörner des Barbaren</span>
+                  <span data-sprache="Englisch">The Horns of the Barbarian</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Wir kennen die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> aus vielerlei Darstellungen. Der Mythos, der mit Hörnern besetzten Helme zieht intermedial, durch beinahe alle <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Darstellungen. Diese Helme hat es jedoch nie gegeben.</span>
+                  <span data-sprache="Englisch">We know the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> from quite a few different depictions. The myth of helmets beset with horns are intermedialy seen, in almost every depiction of <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. There were never helmets like these.</span>
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [3,0] - Texte vollständig! -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[3,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Auf der Reise zwischen den Welten</span>
+            <span data-sprache="Englisch">On the journey between the Worlds</span>
+          </h2>
+        </div>
+
+        <div class="BildTextZweiEins">
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Bifröst</span>
+              <span data-sprache="Englisch">Bifrost</span>
+            </h4>
+
+            <div>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Wie auch bei den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> spielt das Thema der <q>Reise</q> eine große Rolle bei den Göttern der nordischen Mythologie. Die nordische Mythologie kennt eine Viezahl an Welten und Wesen, wie man es von kaum einer Glaubensrichtung — weder in der Moderne noch aus der Antike — kennt. [Viele der altertümlichen Glaubensrichtungen und Philosophien kennen zwar eine Vielzahl an Göttern, jedoch teilen diese meist dasselbe Heim.] Die Vielzahl dieser Welten und ihrer Bewohner und den — in den Kapiteln zuvor angedeuteten — Konflikten erfordern das Reisen zwischen eben diesen Welten.</span>
+                  <span data-sprache="Englisch">As well as with the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, the topic of <q>Journeys</q> is very important to the Gods of the Norse Mythology. The Norse Mythology knows a multitude of Worlds and Beings, which can not be found in other beliefs in similar way — neither in modern nor antique beliefs. [A lot of ancient beliefs and philosophies have a multitude of gods, where they all mostly share the same home.] This multitude of Worlds and their inhabitants and their — like in earlier chapters already indicated — conflicts make the journey between these worlds important.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die interessanteste Reise hier ist jedoch die zwischen <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> und <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr>, also die Reise zwischen dem Himmels- und dem Erdenreich. Wir wollen uns hier also auf den <q><abbr title="/ˈbɪvrɒst/">Bifröst</abbr></q> konzentrieren, die <q><abbr title="Asbru">Ásbrú</abbr></q> [<q><abbr title="/ˈʌɪsɪə/">Æsir</abbr></q>-Brücke] oder die <q>Regenbogenbrücke</q>.</span>
+                  <span data-sprache="Englisch">The most interesting journey here, would be the one between <abbr title="/ˈazɡɑːd/">Ásgarðr</abbr> and <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr>, the journey between the heavenly and earthly worlds. Therefore we want to focus on the <q><abbr title="/ˈbɪvrɒst/">Bifrost</abbr></q>, the <q><abbr title="Asbru">Ásbrú</abbr></q> [<q><abbr title="/ˈʌɪsɪə/">Æsir</abbr></q>-Bridge] or the <q>Rainbowbridge</q>.</span>
+                </p>
+              </section>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Der <q><abbr title="/ˈbɪvrɒst/">Bifrost</abbr></q> — oder auch <q>Schwankende Himmelstraße</q> — ist eine sagenumwobene Brücke, die die Himmelswelten mit den Erdenwelten verbindet. Die dreistrahlige Regenbogenbrücke wird durch den Gott <abbr title="/ˈheɪmdɑːl/">Heimdall</abbr> bewacht. Außerdem brennt auf der Brücke ein rotes Feuer, dass das <q>Böse</q> — bis zu <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr> — an ihrer Überquerung hindern soll.</span>
+                  <span data-sprache="Englisch">The <q><abbr title="/ˈbɪvrɒst/">Bifrost</abbr></q> — or <q>The swaying road to Heaven</q> — is the legendary Bridge, which connects the heavenly world to the earthly world. The three-rays Rainbowbridge is guarded by the God <abbr title="/ˈheɪmdɑːl/">Heimdall</abbr>. Furthermore, there is red fire burning on the bridge, keeping the <q>Evil</q> — until <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr> — from crossing the bridge.</span>
+                </p>
+
+                <p class="Zitat">
+                  <span data-sprache="Deutsch" class="Eingliedern"><q>Aber so stark sie auch ist, so wird sie doch zerbrechen, wenn Muspels Söhne kommen, darüber zu reiten.</q><abbr title="Gylfaginning 13">&nbsp;<sup class="Kommentar">[1]</sup></abbr></span>
+                  <span data-sprache="Englisch"><q>When the Sons of Muspell ride over Bifröst it will break, as was said above.</q><abbr title="Faulkes (1995:53)">&nbsp;<sup class="Kommentar">[1]</sup></abbr></span>
+                </p>
+              </section>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[3,&nbsp;0]</h1>
+        </div>
+        <div class="Zeitstrahl">
+          <div class="ZeitstrahlBeschriftung OhneErlaeuterndeSpalte">
+            <p>[885|886]</p>
+            <p></p>
+            <p>[930]</p>
+            <p>[960]</p>
+          </div>
+          <div class="ZeitstrahlLinie"></div>
+          <div class="ZeitstrahlInhalt VierZeitstrahlParagrafen">
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">2 Jahre Plünderungen</span>
+                <span data-sprache="Englisch">2 Years of Pillages</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Frankreich hält einer Belagerung durch die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> stand. Über zwei Jahre folgen massive Plünderungen in Westfrankreich.</span>
+                <span data-sprache="Englisch">France holds up against the siege of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. The West of France suffers from massive pillages for over 2 years.</span>
+              </p>
+            </section>
+            <section></section>
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">Das Land hinter dem Eismeer ...</span>
+                <span data-sprache="Englisch">The land behind the Arctic Seas ...</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">In den über 60 Jahren nach der Entdeckung von <abbr title="'lɛiːvʏr 'ɛi:riksɔn">Leifr Eiríksson</abbr>, kam es schließlich unter anderem durch <abbr title="ˈiŋkoulvʏr̥ ˈartnar̥sɔn">Ingólfr Arnarson</abbr> — oder <q>Könglicher Wolf</q> Arnarson — zur Besiedelung <abbr title="/ˈiːslant/">Ísland</abbr>.</span>
+                <span data-sprache="Englisch">In more than 60 years after the discovery of <abbr title="/ˈiːslant/">Ísland</abbr>, the settlement of <abbr title="/ˈiːslant/">Ísland</abbr> which was — amongst others — lead by <abbr title="ˈiŋkoulvʏr̥ ˈartnar̥sɔn">Ingólfr Arnarson</abbr> — or <q>Kingly Wolf</q> Arnarson took place.</span>
+              </p>
+            </section>
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">Die Taufe eines Víkingr</span>
+                <span data-sprache="Englisch">The Christening of a Víkingr</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Im Jahre 960 ließ sich Haraldr Blátǫnn — oder Harald I. <q><abbr title="Ja, da ist, wo die Marke »Bluetooth« herkommt.">Blauzahn</a></q> Gormsson — durch ein Wunder vom Christentum überzeugen und anschließend taufen.</span>
+                <span data-sprache="Englisch">In the year 960 Haraldr Blátǫnn — or Harald I. <q><abbr title="Yes, this is where the Brand »Bluetooth« comes from.">Bluetooh</abbr></q> Gormsson — was persuaded by a miracle and then converted to Christianity.</span>
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[3,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Auf der Reise zwischen den Meeren</span>
+            <span data-sprache="Englisch">On the journey between the Seas</span>
+          </h2>
+        </div>
+
+        <div class="BildTextDreiEins">
+          <section class="Bild">
+            <img src="" alt="Schiffsbau der Víkingr" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Die seefahrenden Krieger</span>
+              <span data-sprache="Englisch">The seafaring Warriors</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Wie bereits festgestellt wurde, taten sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> bereits durch ihren fortgeschrittenen Schiffsbau hervor. Doch ihr Erfolg beschränkte sich nicht nur auf den Schiffbau, sondern natürlich auch auf die Schiffsfahrt selbst. Den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> werden demnach herausragende Fähigkeiten in der Navigation auf See nachgesagt, auch wenn diese Fähigkeiten kaum überliefert und die wohl verwendeten Instrumente kaum erhalten sind.</span>
+              <span data-sprache="Englisch">As already stated in chapters before, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were ahead of their time, in shipbuilding. But their success was not limited to their skills in shipbuilding, they of course also were exceptional seafarers. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are therefore said to have extraordinary skills in Navigation in the Seas, even though neither their skills nor the instruments they used are documented too well.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Tatsache bleibt, dass die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> trotz ihrer hauptsächlich um Nord- und Ostsee angesiedelten Stämme, weite Teile der Welt bereisten, wie ihre Ankunft in Nordamerika oder Besiedlung Islands und Grönlands ohne Zweifel belegen dürften. Neben diesen Überquerungen der Meere bewegten sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auch viel im Inneren Europas und machten so nicht wenigen Königreichen das Leben schwer.</span>
+              <span data-sprache="Englisch">The fact remains, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, even though their settlements were located around the North and Baltic Sea, traveled through vast parts of the world, as undoubtedly proven by their arrival in North America or their settlements in Island and Greenland. Apart from the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> traveling across the Oceans, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> also traveled a lot within Europe, terrorizing quite a few kingdoms in their time.</span>
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [4,0] - Texte vollständig! -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[4,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Länder der Himmelswelten</span>
+            <span data-sprache="Englisch">The countries of the heavenly Worlds</span>
+          </h2>
+        </div>
+        <div class="BildTextZweiEins">
+          <section class="Text">
+            <div>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Wie schon in manchen Kapiteln zuvor angedeutet, waren die Welten der Götter beinahe so komplex, wie die Länder der Menschen von <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr>. So gibt es nicht nur eine Vielzahl von Welten und Ländern, sondern auch ihre Lage dieser ist nicht allzu einfach zu beschreiben. Jede dieser Welten ist abhängig von den in ihr herrschenden und wohnenden Wesen. Jede dieser Welten hat ihre eigene Aufgabe und zusammen wirken sie auf die irdische Welt und ihre Bewohner ein. Diese Welten versammeln sich um <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr> und bestimmen — ob nun direkt oder indirekt — das Schicksal der <abbr title=" ˈviːkɪŋɐ">Víkingr</abbr>:</span>
+                  <span data-sprache="Englisch">As already mentioned in previous chapters the Worlds of the Gods are almost as complex as the Countries of Men, of <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr>. There is not only a multitude of Worlds and Countries, but also the position of these worlds is not too easy to describe. Every single one of these Worlds depends on their ruling and living inhabitants. Each one of these Worlds has its own duties and all together they have an influence on the earthly world and its inhabitants. These worlds all gather around <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr> and dictate — directly as well as indirectly — the fate of the <abbr title=" ˈviːkɪŋɐ">Víkingr</abbr>:</span>
+                </p>
+
+                <ul class="Liste">
+                  <li>
+                    <abbr title="/ˈɑːsɡɑːrd">Ásgarðr</abbr>
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Heim der Æsir</q>]</span>
+                      <span data-sprache="Englisch">[<q>Home of the Æsir</q>]</span>
+                    </span>
+                  </li>
+                  <li>Vanaheimr
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Heim der Vanir</q>]</span>
+                      <span data-sprache="Englisch">[<q>Home of the Vanir</q>]</span>
+                    </span>
+                  </li>
+                  <li>Ljossalfheim
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Heim der Licht-Elfen</q>]</span>
+                      <span data-sprache="Englisch">[<q>Home of the Light-Elves</q>]</span>
+                    </span>
+                  </li>
+                  <li>
+                    <abbr title="/ˈmɪdɡɑːd/">Miðgarðr</abbr>
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Mittelgarten</q>]</span>
+                      <span data-sprache="Englisch">[<q>Middle Yard</q>]</span>
+                    </span>
+                  </li>
+                  <li>
+                    <abbr title="/ˈjɒˌtunːhaɪm/">Jǫtunheimr</abbr>
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Heim der Riesen</q>]</span>
+                      <span data-sprache="Englisch">[<q>Home of the Giants</q>]</span>
+                    </span>
+                  </li>
+                  <li>
+                    <abbr title="niːfl̩ha͜im">Niflheimr</abbr>
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Welt des Nebels</q>]</span>
+                      <span data-sprache="Englisch">[<q>World of Mist</q>]</span>
+                    </span>
+                  </li>
+                </ul>
+              </section>
+              <section>
+                <ul class="Liste">
+                  <li>Muspellzheimr
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Welt der Zerstörer</q>]</span>
+                      <span data-sprache="Englisch">[<q>World of Destroyers</q>]</span>
+                    </span>
+                  </li>
+                  <li>Svartálfaheimr
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Heim der Schwarz-Elfen</q>]</span>
+                      <span data-sprache="Englisch">[<q>Home of the dark Elves</q>]</span>
+                    </span>
+                  </li>
+                  <li>Helheimr
+                    <span class="Kommentar">
+                      <span data-sprache="Deutsch" class="Eingliedern">[<q>Hölle</q>]</span>
+                      <span data-sprache="Englisch">[<q>Hell</q>]</span>
+                    </span>
+                  </li>
+                </ul>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Zusammengefasst werden diese Welten üblicherweise in <abbr title="/ˈɪɡdrəzɪl/">Yggdrasil</abbr> — die <q>Weltenesche</q> — einem mythischen Baum. Der Baum symbolisiert die Verbindung zwischen der Natur, Himmel, Erde und Unterwelt dar. [Ein passenderes Symbol ließe sich hier sicherlich kaum finden.] Eine Verbindung, die alle Bestandteile des Weltbilds verbindet und auch gleichzeitig der Abhängigkeit voneinander deutlich macht. Ein Ungleichgewicht dieser Bedingtheiten kann zur vollständigen Zerstörung der Welt — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr> — führen.</span>
+                  <span data-sprache="Englisch">These different worlds are typically summed up in <abbr title="/ˈɪɡdrəzɪl/">Yggdrasil</abbr> — the <q>World Tree</q>. The tree symbolizes the connection between Nature, Heaven, Earth and Environment. [A more fitting symbol might not be easy to find.] This is a connection, which combines all the different parts of the worldview and also depicts the dependencies of the Worlds to each other. An imbalance of the dependencies might lead to the total destruction of the World — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr>.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Auch <abbr title="/ˈɪɡdrəzɪl/">Yggdrasil</abbr> ist eines jener Symbole, die auch heute noch in modischen Schmuckstücken Verwendung finden.]</span>
+                  <span data-sprache="Englisch" class="Kommentar">[Also, <abbr title="/ˈɪɡdrəzɪl/">Yggdrasil</abbr> is one of those symbols, that are still to be found in today's fashionably jewelry.]</span>
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[4,&nbsp;0]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Territorien</span>
+            <span data-sprache="Englisch">The Territories</span>
+          </h2>
+        </div>
+
+        <div class="BildTextDreiEins">
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Im Überall ...</span>
+              <span data-sprache="Englisch">In the Everywhere ...</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Da es sich, wie bereits festgestellt, bei den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> nicht um eine Volksgruppe handelt, lässt sich kaum eine konkrete Ausbreitung der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> darstellen. Die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> haben hauptsächlich auf Basis einzelner Stämme gehandelt und kaum als eine Art vereinigtes Königreich. Im Allgemeinen lassen sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> lediglich ihrer Herkunft nach in dreierlei Gruppierungen zusammenfassen:</span>
+              <span data-sprache="Englisch">Since — as already stated before — the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are not an ethnic group, a precise depiction of the spreading of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> seems almost impossible. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> mainly acted as single tribes and not as some kind of united kingdom. Generally the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> can only — by their origin — be classified into three groups:</span>
+            </p>
+
+            <ul class="Liste">
+              <li>
+                <span data-sprache="Deutsch" class="Eingliedern">Dänische <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+                <span data-sprache="Englisch">Dutch <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+              </li>
+              <li>
+                <span data-sprache="Deutsch" class="Eingliedern">Norwegische <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+                <span data-sprache="Englisch">Norwegian <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+              </li>
+              <li>
+                <span data-sprache="Deutsch" class="Eingliedern">Schwedische <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+                <span data-sprache="Englisch">Swedish <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+              </li>
+            </ul>
+
+            <p class="Kommentar">
+              <span data-sprache="Deutsch" class="Eingliedern">[Da eine in diese drei Gruppen getrennte Darstellung nur wenig sinnvoll ist und nur einen Bruchteil der gesamten Ausbreitung der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> berücksichtigt, wollen wir uns hier auf eine Darstellung der allgemeinen Ausbreitung der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> konzentrieren.]</span>
+              <span data-sprache="Englisch">[Since the dividing of a depiction into the aforementioned groups does not make sense and would only be depicting a part of the general spreading of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, we want to focus on the depiction of the general spreading of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.]</span>
+            </p>
+          </section>
+          <section class="Bild">
+            <img src="" alt="Schiffsbau der Víkingr" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[4,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Länder der Erdenwelten</span>
+            <span data-sprache="Englisch">The countries of the earthly Worlds</span>
+          </h2>
+        </div>
+
+        <div class="BildTextDreiEins">
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Ausbreitung</span>
+              <span data-sprache="Englisch">The Spreading</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Da es sich, wie eingangs festgestellt, bei den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> um keine Volksgruppe handelt, sondern sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> vielmehr durch ihre Tätigkeit definieren, lässt sich der Ursprung der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> nicht eindeutig verorten. Obwohl es auch in anderen Teilen der Welt <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Stämme gab, spricht man meist von dänischen, norwegischen und schwedischen <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Über die historische Entwicklung der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> hinweg breiteten sie sich über die Meere in viele Ecken unserer Welt aus. Die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> taten sich dabei zwar durch Plünderungen und Zerstörungen hervor, dennoch besiedelten sie auch. So gab es durch die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> erste Siedlungen auf Island und Grönland. Aber auch Heiðabýr ist heute ein Begriff. <span class="Kommentar">[Ein ehemalig slavischer Handelsknoten, der von den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> zerstört und neu besiedelt wurde.]</abbr></span></span>
+              <span data-sprache="Englisch">As stated in the introduction, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were not an ethnic group, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are best to be defined by their activities. Therefore, it is not possible to definitely locate the origin of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Even though there were quite a few <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Tribes all around the world, there are in general three major groups; Dutch, Norwegian and Swedish <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Through their historic development the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> spread over the seas into the world. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were most famous for pillages and destruction, but they also settled. Because of this, there were first <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Settlements in Island and Greenland. But also Heiðabýr is famous today. <span class="Kommentar">[A former Slavic trading point, which was first destroyed by the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> and then repopulated.]</span></span>
+            </p>
+          </section>
+          <section class="Bild">
+            <img src="" alt="Schiffsbau der Víkingr" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [5,0] -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[5,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Krieger und Gott</span>
+            <span data-sprache="Englisch">Warrior and God</span>
+          </h2>
+        </div>
+
+        <div class="VierSpalten">
+          <section>
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+          <section>
+            <h4>Titel</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[5,&nbsp;0]</h1>
+        </div>
+        <div class="Zeitstrahl">
+          <div class="ZeitstrahlBeschriftung OhneErlaeuterndeSpalte">
+            <p>[987]</p>
+            <p></p>
+            <p>[994]</p>
+            <p>[995]</p>
+          </div>
+          <div class="ZeitstrahlLinie"></div>
+          <div class="ZeitstrahlInhalt VierZeitstrahlParagrafen">
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">Vater gegen Sohn</span>
+                <span data-sprache="Englisch">Father against Son</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Haraldr Blátǫnn kämpft gegen seinen eigenen Sohn — Sven Gabelbart, dem er die Thronfolge versagt. Sven Gabelbart hat sich wieder den alten Bräuchen zu und vom Christentum abgewandt.</span>
+                <span data-sprache="Englisch">Haraldr Blátǫnn fights against his own son, whom he denies the heritage of the throne. Sven Gabelbart turned his back on Christianity and instead follows the old traditions.</span>
+              </p>
+            </section>
+            <section>
+              <div class="ZeitstrahlKommentarAusgleich"></div>
+              <p class="Kommentar">
+                <span data-sprache="Deutsch" class="Eingliedern">[Das sich mehr und mehr ausbreitende Christentum und (zunehmend) vereinzelt heidnisch verbleibende Stämme sorgen unentwegt für blutige Konflikte.]</span>
+                <span data-sprache="Englisch">[The seemingly inexorable spreading of the Christianity and the fewer heathenish, remaining tribes evoke continuous and bloody conflicts.]</span>
+              </p>
+            </section>
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">16.000 Pfund Silber</span>
+                <span data-sprache="Englisch">16.000 pounds of Silver</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> belagern London und erzwingen etwa 16.000 Pfund Silber <span class="Kommentar">[8.000 kg]</span> als Lösegeld.</span>
+                <span data-sprache="Englisch">The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> occupy London and force a payment of 16.000 pounds of Silver <span class="Kommentar">[8.000 kg]</span> as ransom.</span>
+              </p>
+            </section>
+            <section>
+              <i class="material-icons">keyboard_arrow_up</i>
+
+              <br>
+
+              <h4>
+                <span data-sprache="Deutsch" class="Eingliedern">Alte Bündnisse</span>
+                <span data-sprache="Englisch">Old Alliances</span>
+              </h4>
+
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Olav I. Tryggvason lässt sich taufen. Nachdem er sein Bündnis mit Sven Gabelbart kündigt, beginnt er mit der Christianisierung Norwegens.</span>
+                <span data-sprache="Englisch">Olav I. Tryggvason converts to Christianity. After terminating the alliance to Sven Gabelbart, he begins to Christianize Norway.</span>
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[5,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Krieger und Stratege</span>
+            <span data-sprache="Englisch">Warrior and Strategist</span>
+          </h2>
+        </div>
+
+        <div class="VierSpalten">
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Ziele</span>
+              <span data-sprache="Englisch">The Targets</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Art und Weise in der sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> ihren Namen, als kriegerische und räuberische Seefahrer machten, erforderte Vorausdenken. Dies galt selbstverständlich nicht nur für die Taktik im Kampf. Dies begann bereits bei der Auswahl der angefahrenen Ziele. Selbstverständlich konnten auf Basis der damaligen Kartografie kaum bestimmte Ziele aufgrund ihrer strategischen Lage oder aufgrund wochenlanger Planung angefahren werden. Dies war schlichtweg nicht möglich. Dennoch mussten Ziele bestimmte Eigenschaften erfüllen, um die Angriffe nach Art der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> möglich zu machen.</span>
+              <span data-sprache="Englisch">The way in which the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> made a name for themselves, as warrior-like and raptorial seafarers, required thinking ahead. This was not limited to their tactics in fighting. They already need to think ahead, when picking targets for their attacks and pillages. In that time they could neither choose strategical targets, based on a detailed cartography nor could they plan their attacks weeks ahead. This was — back then — impossible. But their targets still needed to have certain properties to enable a <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-like attack.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Ein großer Faktor für die Wahl eines Ziels war natürlich die Lage des Ziels. Die Küstennähe oder die Nähe befahrbarer Gewässer <span class="Kommentar">[Flüsse]</span> ermöglichten den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> einen überraschenden Angriff, wie auch einen ebenso schnellen Rückzug, sollte dieser notwendig werden.</span>
+              <span data-sprache="Englisch">A big factor for their choices was of course the location of the target. Locations near coasts or near trafficable waterways <span class="Kommentar">[rivers]</span> enabled a surprise attack by the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, as well as a fast retreat, if necessary.</span>
+            </p>
+          </section>
+          <section class="AusgleichEineZeileUeberschrift">
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Ein Umstand, der einem — wenn man die Fähigkeiten oder auch die Historie der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> bedenkt — geradezu ins Gesicht springt. Viele der bekanntesten Ziele, die von den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> heimgesucht wurden, lagen in der Nähe befahrbarer Gewässer.</span>
+              <span data-sprache="Englisch">This is a fact, that — if you think about the skills or the history of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> — jumps you right in the face. A lot of the most famous targets, that were bedeviled by the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, were located near coasts or trafficable waterways.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Ein weiterer Faktor, der die Wahl der Ziele der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> sicherlich beeinflusst hat, war die Verwundbarkeit des Ziels. <span class="Kommentar">[Mit einer — wie es zu den Anfängen der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> üblich war — begrenzten Bootsbesatzung stellt es wahrscheinlich als schwierig heraus ein befestigtes oder gut verteidigtes Ziel zu plündern.]</span> Ein gutes Beispiel dafür ist die Plünderung des <q>Kloster Lindisfarne</q>. Der erste Angriff seiner Art und ein Ziel, indem man wohl kaum kriegerische Gegenwehr erwarten würde. Gleichzeitig aber auch ein Ziel, das aufgrund seiner Funktion Reichtümer bieten würde.</span>
+              <span data-sprache="Englisch">Another big factor, that influenced the choices of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> surely was the vulnerability of the target. <span class="Kommentar">[With a — in the early times of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> commonly — limited (small) boat crew, it is imaginably difficult to pillage a well fortified or defended target.]</span> A great example would be the pillage of the <q>Monastery Lindisfarne</q>. This was the first attack of its kind and a target, which imaginably had no warrior-like resistance. But still a target which, due to its function, promised great riches.</span>
+            </p>
+          </section>
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Schlagkraft</span>
+              <span data-sprache="Englisch">The Power of Impact</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Doch neben der Auswahl der Ziele spielt auch die Taktik des Angriffs bei den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> eine große Rolle. Der Erfolg eines Überfalls oder einer Plünderung beruhte zu einem großen Teil auf dem Überraschungsmoment. <span class="Kommentar">[Die Schiffe der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> erlaubten es ihnen, sich ihren Zielen — für das Zeitalter — besonders schnell zu nähern und sich nach verübten Gräueltaten ebenso schnell zurück zu ziehen.]</span></span>
+              <span data-sprache="Englisch">As important as the choice of targets, was the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-like tactics of attack. The success of an attack or pillage was greatly depending on the moment of surprise. <span class="Kommentar">[The ships of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> allowed them to — in their age and time — approach their targets especially fast and after their outrages take off equally fast.]</span></span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Zu den Anfängen der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> stellte ein Kampf mit zunehmender Dauer eine zunehmende Gefahr dar. Je länger der Kampf andauerte, desto geringer waren die Chancen auf Erfolg und desto höher auch die Gefahr für die Zerschlagung des angreifenden <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Trupps. <span class="Kommentar">[Später schlossen sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auch zu größeren Kampfverbänden und sogar Heeren zusammen und belagerten ganze Städte, um Tribute zu erzwingen.]</span></span>
+              <span data-sprache="Englisch"></span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Für die Zerschlagung der Gegenwehr ihrer Ziele bedienten sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> — ihrer barbarischen Natur nach — roher Gewalt.</span>
+              <span data-sprache="Englisch">For the divestiture of the defenses of their targets, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> — in their barbarian nature — used raw and  brute force.</span>
+            </p>
+          </section>
+          <section class="AusgleichEineZeileUeberschrift">
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Es galt also die Verteidigung, sofern vorhanden, zu überrennen und den führenden Kopf des Feindes auszuschalten, um so einen möglichst schnellen Sieg herbeizuführen.</span>
+              <span data-sprache="Englisch">Therefore, it was important to overrun and break the defenses, if existing, and eliminate the leader of the enemy, to ensure a quick and final victory.</span>
+            </p>
+
+            <div class="UeberschriftInAbsatzAbstand"></div>
+
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Schlachten & Seeschlachten</span>
+              <span data-sprache="Englisch">Battles & Seabattles</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Auch bei den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> gab es — wenn auch äußerst selten — Schlachten, die ausgefochten wurden. In diesen schlossen sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Trupps zu Schildwällen zusammen, hinter denen Speerwerfer postiert waren.</span>
+              <span data-sprache="Englisch">Rather rarely the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> also fought in open battles. Within these the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Troups built a wall of shields and positioned spear throwers behind it.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Seeschlachten spielten bei den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auch eine bedeutende Rolle, denn die Übernahme eines unbeschadeten Schiffes, stellte einen erheblichen Vermögenswert dar. In einer solchen Schlacht wurden Schiffe miteinander vertäut und spezielle Krieger ausgeschickt, die versuchen sollten, die gegnerischen Schiffe einzunehmen.</span>
+              <span data-sprache="Englisch">Seabattles also were of greater importance to the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, since the take-over of a fully functioning ship was of great (financial) value. In a battle like this, the ships were bond together and a special kind of warrior was sent out to try to conquer the enemies ship, without destroying it.</span>
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [6,0] - Texte vollständig! -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[6,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Der tote Krieger unter Göttern</span>
+            <span data-sprache="Englisch">The fallen Warrior amongst the Gods</span>
+          </h2>
+        </div>
+
+        <div class="BildTextZweiEins">
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Der ehrbare Tod</span>
+              <span data-sprache="Englisch">The honorful Death</span>
+            </h4>
+            <div>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Entgegen der Erwartungen, die einen überkommen, wenn man die kriegerische Natur der nordischen Götter bedenkt, hatte der Tod für die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> nur wenig Erschreckendes. Stirbt ein <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> ehrenvoll — mit seiner Waffe in der Hand — so wird er, dem Glauben nach in <q>Halle der Gefallenen</q> aufgenommen. Fortan trägt er den Titel <q>Einherjer</q>.</span>
+                  <span data-sprache="Englisch">Against all expectations, when you think about the warrior-like nature of the norse Gods, death — to the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> — was nothing to be afraid of. When a <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> dies honorably — with a weapon in his hand — he will be, according to their beliefs, accepted into the <q>Hall of the Slain</q>. He will gain the title <q>Einherjer</q>.</span>
+                </p>
+
+                <div class="UeberschriftInAbsatzAbstand"></div>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Valhalla — <q>Halle der Gefallenen</q></span>
+                  <span data-sprache="Englisch">Valhalla — <q>Hall of the Slain</q></span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Der Begriff <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> ist allgemein hin bekannt. Fast jeder hat eine bestimmte Vorstellung von <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr>. Doch die allgemeine Auffassung, die <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> als eine Art letzter Ruhestätte des gefallenen Kriegers oder einer Art Paradies begreift, könnte nicht weiter von der Wahrheit entfernt sein.</span>
+                  <span data-sprache="Englisch">The word <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> is well known. Almost everybody has a certain perception of <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr>. Generally <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> is thought to be some kind of last resting-place or some kind of paradise, but these understandings can not be further from the truth.</span>
+                </p>
+              </section>
+              <section>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern"><abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> sieht keineswegs die ewige Ruhestätte des Kriegers vor, ebenso wenig natürlich auch kein Höllenfeuer. <span class="Kommentar">[Oft wird <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> auch als eine Art <q>Kriegerparadies</q> beschrieben. Wie aber ist <q>Kriegerparadies</q> zu verstehen? Das ständige Erwarten des letzten, schicksalshaften Kampfes?]</span></span>
+                  <span data-sprache="Englisch"><abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> is neither the last resting-place of a warrior, nor — of course not — the firery depths of hell. <span class="Kommentar">[Often <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> is also descriped as <q>Warrior Paradise</q>. How is <q>Warrior Paradise</q> to be understood? The endless waiting for the last, fateful fight?]</span></span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Handverlesen von <abbr title="/ˈoʊdɪn/">Óðinn</abbr> und seinen <abbr title="/vælˈkɪəri/">Valkyrja</abbr> <span class="Kommentar">[Schlacht- oder Schildjungfer]</span> — <q>Wählerin der Gefallenen</q> — fanden die Einherjer ihren Weg nach <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> oder auch <q>Halle der Gefallenen</q>. Dort versammelten sich die ehrbarsten Krieger ihrer Zeiten, die letzte Schlacht — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr> — erwartend. Denn in dieser letzten Schlacht, mit der die Welten zu fallen, der nordischen Mythologie nach, fallen würden, konnten sich nur die ehrbarsten Krieger den Göttern im Kampfe um das <q>Schicksal der Götter</q> anschließen.</span>
+                  <span data-sprache="Englisch">Handpicked by <abbr title="/ˈoʊdɪn/">Óðinn</abbr> and his <abbr title="/vælˈkɪəri/">Valkyrja</abbr> — <q>Chooser of the Slain</q> — the Einherjer were accepted into <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> or the <q>Hall of the Slain</q>. There, the most honorable warriors of their times gathered, waiting for the last battle — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr>. In this last battle, with which, according to the norse mythology, the worlds are supposed to end, only the most honorable warriors were allowed to join the Gods in the battle for the <q>Fate of the Gods</q>.</span>
+                </p>
+
+                <p class="Kommentar">
+                  <span data-sprache="Deutsch" class="Eingliedern">[Krieger, die nicht nach <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> finden, landen in <abbr title="/ˈfreɪə/">Freyja</abbr>'s Fólkvangr — <q>Volksfeld</q>.]</span>
+                  <span data-sprache="Englisch">[Warriors, who are not accepted into <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr>, end up in <abbr title="/ˈfreɪə/">Freyja</abbr>'s Fólkvangr — <q>Peoples Field</q>.]<span>
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[6,&nbsp;0]</h1>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[6,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Der Tod des Kriegers</span>
+            <span data-sprache="Englisch">The Death of a Warrior</span>
+          </h2>
+        </div>
+
+        <div class="BildTextZweiEins">
+          <section class="Text">
+            <div>
+              <section>
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Der furchtlose Krieger</span>
+                  <span data-sprache="Englisch">The fearless Warrior</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Wie bereits in einem anderen Kapitel angedeutet, hatten die Krieger der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> keine Angst vor dem Tod. Mit den kriegerischen, göttlichen Ebenbildern und einem Versprechen auf <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> ließ sie der Tod unbeeindruckt. Die ehrbaren Krieger, <q>Einherjer</q>, strebten nach dem Eingang in <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> und dem letzten Kampf an der Seite der Götter, die letzte Schlacht — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr>.</span>
+                  <span data-sprache="Englisch">As mentioned in another chapter in the culture the <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> death was nothing to be afraid of. With their warrior-like, divine counterparts and a promise of <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> they did not fear death. The honorable warriors, <q>Einherjer</q>, strove for the acceptance into <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> and their last battle at the side of the Gods, the last Battle — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr>.</span>
+                </p>
+
+                <div class="UeberschriftInAbsatzAbstand"></div>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die Bestattung</span>
+                  <span data-sprache="Englisch">The Burial</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die spektakulärsten Bestattungsriten der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> sind weithin bekannt. Jedoch herrscht der Glaube, dass ein jeder <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> in einem flammenden Boot <span class="Kommentar">[Schiff]</span> auf das Meer hinaus geschickt wird, um dann nach <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> aufsteigen zu können. Hier eilt der Mythos allerdings der Wahrheit voraus. Zum Einen steig nicht jeder <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> nach <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr> auf.</span>
+                  <span data-sprache="Englisch">The most spectacular rites of burial from the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are still famous today. But in general people seem to expect, that each and every one of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were buried in a flaming boat <span class="Kommentar">[ship]</span>, sent out in the sea to be accepted into <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr>. But here, the myth precedes the truth. On the one hand, not every <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was accepted into <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr>.</span>
+                </p>
+              </section>
+              <section class="AusgleichEineZeileUeberschrift">
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Andererseits waren Boote und Schiffe, trotz der fortgeschrittenen Handwerkskunst der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> ein teures Gut.</span>
+                  <span data-sprache="Englisch">On the other hand, boat and ships, were — in spite of the advanced craftsmanship of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> an expensive good.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Wie auch bei Waffen und Rüstung wird die Art und der Umfang des Begräbnisses durch den sozialen und finanziellen Status bestimmt. Demnach war die Bestattung in einem Boot <span class="Kommentar">[Schiff]</span> — ob nun in einem Grabhügel oder einer Feuerbestattung — nur den angesehensten <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> und Stammesfürsten vorbehalten. Daneben wurden den meisten <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> im Grabe Waffen und Rüstung beigelegt, die sie im Kampf an der Seite der Götter unterstützen sollten.</span>
+                  <span data-sprache="Englisch">Similar to the weapons and the armour of a <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, the extent and the format of a burial was greatly depending on the social and financial status of a <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Therefore, a burial in a boat <span class="Kommentar">[ship]</span> — no matter if grave mound or cremation — was reserved to the most respected warriors or the tribal leaders. Next to this, most of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were burried with weapons and armour to support their fight at the side of the Gods.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern"><span class="Kommentar">[In manchen Fällen wurden den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> sogar Tiere geopfert und mit ins Grab gelegt. In selteneren Fällen kam es vor, dass ihnen auch Bedienstete ins Grab folgen mussten.]</span></span>
+                  <span data-sprache="Englisch"><span class="Kommentar">[Sometimes the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were buried a long with animals, that were sacrificed. Rarely even servants had to follow their master into the grave.]</span></span>
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [7,0] - Texte vollständig! -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[7,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Von Göttern zu Gott</span>
+            <span data-sprache="Englisch">From Gods to God</span>
+          </h2>
+        </div>
+
+        <div class="BildTextZweiEins">
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Ein neuer Glaube ...</span>
+              <span data-sprache="Englisch">A new Belief ...</span>
+            </h4>
+
+            <div>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Mit der schnell fortschreitenden Missionisierung und Christianisierung der Welt veränderten sich auch die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, oder vielmehr ihr Glaube — die <q>Nordische Mythologie</q>. Eine Veränderung, die auch im Untergang ihres Reiches keine unwesentliche Rolle spielt.</span>
+                  <span data-sprache="Englisch">With the fast advancing Proselytism and Christianization the world also changed for the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, well more precisely their belief — the <q>Norse Mythology</q>. This was a change, which also had a great impact on the empire of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> itself.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Selbstverständlich veränderte sich der Glaube selbst nicht. Keineswegs wurde aus der Vielzahl von atemberaubenden Götterfiguren ohne jede kirchliche Institution ein monotheistischer Glaube mit übergeordneten Ordnungs- und Lehrstrukturen. Die <q>Nordische Mythologie</q> blieb erhalten. Doch die glaubenden <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> wandten sich mehr und mehr von diesem Glauben ab und dem Christentum zu. Nicht wenige der heute bekannten <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, wie beispielsweise <abbr title="'lɛiːvʏr 'ɛi:riksɔn">Leifr Eiríksson</abbr> legten die alten Bräuche ab. <abbr title="'lɛiːvʏr 'ɛi:riksɔn">Leifr Eiríksson</abbr> missionierte sogar im Namen seine Glaubens und brachte so das Christentum nach <abbr title="/ˈiːslant/">Ísland</abbr>.</span>
+                  <span data-sprache="Englisch">Of course the belief itself did not change. The belief did not merge from a belief with a multitude of breathtaking God figures and no church-like Institutions whatsoever into a monotheistic belief with superordinate normative and educational structures. The <q>Norse Mythology</q> remained unaltered. Yet the believing <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> more and more turned away from these believes and turned to Christianity. Not too few of the more famous <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, such as <abbr title="'lɛiːvʏr 'ɛi:riksɔn">Leifr Eiríksson</abbr>, turned away from their old customs. <abbr title="'lɛiːvʏr 'ɛi:riksɔn">Leifr Eiríksson</abbr> even did proselytize in the name of his belief and with this brought Christianity to <abbr title="/ˈiːslant/">Ísland</abbr>.</span>
+                </p>
+              </section>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Berechtigterweise fragt man sich, wie der Einzug eines neuen Glaubens — neuen Gedankengutes — in eine Gesellschaft wohl zu deren Untergang führen mag. Selbstverständlich war es nicht der Glaube selbst, der den Niedergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> begleitete. Vielmehr waren es die damit einhergehenden Veränderungen in den Stammesstrukturen der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.</span>
+                  <span data-sprache="Englisch">Legitimately one might ask, how a new belief — a new school of thought — finding its way into a society, can lead to the downfall of that society. Of course, it was not the belief itself, causing the fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Furthermore, it was caused by the changes of structures within their society that resulted from these changes in belief.</span>
+                </p>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Mit dem neuen Glauben verschwanden die heroischen Götterbilder, die — wohl kaum abgestritten werden kann — in gewisser Weise ein Spiegelbild des Wesens der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> darstellten. Bilder und mythische Lehren, die einst nicht nur die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> in ihrem Sein bestärkten, sondern auch eine gewisse Basis für die Herrschaft und Führungsstärke ihrer Stammesfürsten bildeten, lösten sich auf.</span>
+                  <span data-sprache="Englisch">With the new beliefs the heroic images of gods — which undoubtedly mirrored the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Spirit — disappeared. Images and mythic teachings, which once not only strengthened the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> in their being, but also formed the basis of dominance and leadership of their tribal leaders vanished.</span>
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[7,&nbsp;0]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Das Ende einer Ära</span>
+            <span data-sprache="Englisch">The End of an Era</span>
+          </h2>
+        </div>
+
+        <div class="EinsDrei">
+          <section class="Drei">
+            <div class="ZeitstrahlBeschriftung">
+              <p>[1000]</p>
+              <p></p>
+              <p>[1066]</p>
+            </div>
+            <div class="ZeitstrahlLinie"></div>
+            <div class="ZeitstrahlInhalt DreiZeitstrahlParagrafen">
+              <section>
+                <i class="material-icons">keyboard_arrow_up</i>
+
+                <br>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Hinter dem Eismeer</span>
+                  <span data-sprache="Englisch">Behind the Arctic Sea</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Mit dem Besuch von <abbr title="'lɛiːvʏr 'ɛi:riksɔn">Leifr Eiríksson</abbr> einem Missionar wendet sich <abbr title="/ˈiːslant/">Ísland</abbr> dem Christentum zu.</span>
+                  <span data-sprache="Englisch">With the visit of <abbr title="'lɛiːvʏr 'ɛi:riksɔn">Leifr Eiríksson</abbr> and a missionary <abbr title="/ˈiːslant/">Ísland</abbr> turns to the Christianity.</span>
+                </p>
+              </section>
+              <section></section>
+              <section>
+                <i class="material-icons">keyboard_arrow_up</i>
+
+                <br>
+
+                <h4>
+                  <span data-sprache="Deutsch" class="Eingliedern">Die Schlacht von Hastings</span>
+                  <span data-sprache="Englisch">The Battle of Hastings</span>
+                </h4>
+
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Als <q>Wilhelm der Eroberer</q> England eroberte und sich zum König krönen ließ erstarkte das Land unter seiner Herrschaft, was Angriffe der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> verhindern sollte. <span class="Kommentar">[Dieses Ereignis wird allgemein hin als Ende der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> betrachtet.]</span></span>
+                  <span data-sprache="Englisch">As <q>Wilhelm the Conquerer</q> conquered England and was crowned Kings, his reign helped strengthen the country and in the following also averted further Attacks of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. <span class="Kommentar">[In general this event is regarded as the end of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.]</span></span>
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="Eins">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Zum Untergang bestimmt ...</span>
+              <span data-sprache="Englisch">Destined to fall ...</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Es gab viele verschiedene Faktoren, die zu dem Untergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Faktoren, die sowohl den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> selbst, als auch den sich verändernden Bedingungen des Welthandels und der Weltpolitik zuzuschreiben sind.</span>
+              <span data-sprache="Englisch">There were quite a few factors, which lead to the fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Factors that partly were caused by the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> themselves, as well as factors that were influenced by the changing conditions in global trading and global politics.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Doch trotz ihres Verfalls haben die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> viele Dinge zurückgelassen, die uns bis heute — über die Historie hinaus — beschäftigen und faszinieren. So zum Beispiel ihre einzigartige alt-nordische Runenschrift oder eben ihre komplexen Sagen, Mythen und Göttergeschichten.</span>
+              <span data-sprache="Englisch">Even though the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> fell, their presence left a lot of things behind, that — the history itself aside — up to this day still interest and fascinate us. The unique old-norse runes for example as well as the complex Sagas, Myths or Stories of Gods.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Eine knappe Zusammenfassung des gesamten Werdegangs der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> findest Du in dem Kapitel <q>Der Aufstieg und Niedergang der Víkingr</q> [8,-1]. Dabei wird sowohl auf die Gründe des Aufstiegs, wie auch auf die Faktoren des Verfalls eingegangen.]</span>
+              <span data-sprache="Englisch" class="Kommentar">[You can find a short summary of the whole development of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> in the chapter <q>The Rise and Fall of the Víkingr</q> [8,-1]. The chapter sums up the reasons for rise of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> as well as the factors spurring their fall.]</span>
+            </p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[7,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Von Kriegern zu Händlern</span>
+            <span data-sprache="Englisch">From Warriors to Merchants</span>
+          </h2>
+        </div>
+
+        <div class="BildTextZweiEins">
+          <section class="Text">
+            <div>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Auch wenn es viele Faktoren gab, die den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> zu ihrem Aufschwung und zu ihrer Stellung in ihrer Blütezeit verholfen hatten, konnten sie sich nicht auf Ewig halten. Das Reich der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> verfiel. Wie auch schon bei ihrem Aufstieg gab es vielerlei Einflüsse, die sie schlussendlich ihre Vormachtstellung kosteten.</span>
+                  <span data-sprache="Englisch">Even though there were quite a few factors, influencing the rise of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> and also influencing their position during their prime-age, the position of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was not eternally. The kingdom of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> fell. As with their rise, there were many influences that ultimately cost them their superiority.</span>
+                </p>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Der erfolgreiche und beinahe flächendeckende Einzug des Christentums und damit einhergehende Verfall ihres nordischen, heidnischen Glaubens spielte beim Niedergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> keine unwesentliche Rolle. Es war der Einzug eines Glaubens, der nicht nur für Konflikte zwischen Städten und Nationen, sondern auch für Dispute in Stämmen oder gar in Familien sorgte.</span>
+                  <span data-sprache="Englisch">The successful and almost nation-wide entry of Christianity and the fell of the norse, heathenish beliefs that went along with this, was one of the greater factors influencing the fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. It was the entry of a belief, that not only induced conflicts between nations and kingdoms, but also elicited disputes in tribes or even families.</span>
+                </p>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Maßgeblich für den Niedergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> war jedoch das Versiegen ihrer kriegerischen Natur. <span class="Kommentar">[Vielleicht hat das Christentum auch zur Abkühlung des hitzigen, kriegerischen <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Gemüts beigetragen? Davon soll hier aber nicht die Rede sein.]</span></span>
+                  <span data-sprache="Englisch">Significant for the fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was the ebbing of their warrior-like nature. <span class="Kommentar">[Maybe Christianity influenced the cooling down of the hot, warrior-like <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Spirit? This is not to be discussed here.]</span></span>
+                </p>
+              </section>
+              <section>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">Der Grund für den Untergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> war das Erliegen der kriegerischen Raubzüge und die Beschränkung auf die etablierten Handelsrouten. Die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> zogen sich in Siedlungen zurück und gaben sich mit dem Handel auf ihren üblichen Wasserwegen zufrieden. Der Beginn einer Sesshaftigkeit, die sich später dann als ihr Untergang entpuppt. Gewiss ist es nicht die Sesshaftigkeit an sich, die den Niedergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> herbeiführt. Vielmehr ermöglicht es die Sesshaftigkeit der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> anderen Königreichen ähnliche Fähigkeiten in Schiffsbau, Seefahrt und auch Handel zu erwerben und so die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> aus ihrer Vormachtstellung zu drängen. Mehr und mehr rückt das Reich der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> in den Hintergrund, bis es schließlich vollends verschwindet.</span>
+                  <span data-sprache="Englisch">The main reason for the fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was the ebbing of their warrior-like raids and pillages as well as their limitation to trading on the well-established trade routes. The beginning of their settledness turned out to be their downfall. Of course, it was not the settledness itself that induced the fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. It was more that the settledness of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> gave other kingdoms the possibility to develop the same skills in shipbuilding, seafaring and trading, and therefore pushed the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> out of their supremacy. More and more the kingdom of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> moved into the background, until it finally vanished.</span>
+                </p>
+                <p>
+                  <span data-sprache="Deutsch" class="Eingliedern">So wird das Reich der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> mehr und mehr zu Geschichte. Eine Geschichte, die mangels historischer Zeugnisse zunehmend mit Mythen vermengt wird — mehr und mehr zur Legende wird.</span>
+                  <span data-sprache="Englisch">This is how the kingdom of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> more and more becomes history. A history that, lacking historic evidence, gets mixed with myths — becomes more and more legend.</span>
+                </p>
+              </section>
+            </div>
+          </section>
+          <section class="Bild">
+            <img src="" alt=", der Krieger" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+        </div>
+      </section>
+    </div>
+
+    <!-- [8,0] - Texte vollständig! -->
+    <div class="Spalte">
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[8,&nbsp;1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Der Aufstieg und Niedergang der Götter</span>
+            <span data-sprache="Englisch">The Rise and Fall of the Gods</span>
+          </h2>
+        </div>
+
+        <div class="VierSpalten">
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Eine Religion maßgeschneidert ...</span>
+              <span data-sprache="Englisch">A religion made-to-measure ...</span>
+            </h4>
+
+            <p class="Kommentar">
+              <span data-sprache="Deutsch" class="Eingliedern">[Selbstverständlich kann hier die Entstehung einer Religion und auch das Wesen dieser nicht vollständig wiedergegeben werden. Wir wollen uns hier auf Parallelen zu den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> konzentrieren.]</span>
+              <span data-sprache="Englisch">[Of course, we can neither discuss the rise of a religion nor the full essence of a religion at length. We want to focus on the similarities between the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> and their beliefs.]</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Es gibt einige Parallelen zwischen den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> und dem, was wir heute unter <q>Nordischer Mythologie</q> verstehen. Vor allem in Hinblick auf das Göttergeschlecht der <abbr title="/ˈʌɪsɪə/">Æsir</abbr>. Ebenso, wie den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> wohnt auch den <abbr title="/ˈʌɪsɪə/">Æsir</abbr> eine gewisse kriegerische Natur inne. Überhaupt zieht sich eben jenes hitzige Kriegergemüt, durch vielerlei Aspekte des Lebens eines <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> und ebenso auch durch das Wesen der nordischen Mythologie.</span>
+              <span data-sprache="Englisch">There are quite a few similarities between the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> and that, what we today understand as <q>Norse Mythology</q>. Especially if you focus on the lineage of gods, the <abbr title="/ˈʌɪsɪə/">Æsir</abbr>. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> as well as the <abbr title="/ˈʌɪsɪə/">Æsir</abbr> have a certain warrior-like nature. Generally the hot-blooded warrior-spirit is something that influences a lot of different aspects of the lives of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> as well as the essence of the Norse Mythology.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Viele Parallelen zeigen sich im Angesicht des Todes. So fürchten die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> den Tod nicht und erhoffen stattdessen die Aufnahme in <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr>, um dort auf ihre letzte Schlacht — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr> — an der Seite der Götter zu warten.</span>
+              <span data-sprache="Englisch">A lot of the similarities can be seen, when dealing with the topic of death. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> do not fear death, they instead hope for acceptance into <abbr title="/vɑːlˈhɑːlə/">Valhalla</abbr>, to wait for the last battle — <abbr title="/ˈræɡnəˌrɒk/">Ragnarök</abbr> — at the side of the Gods.</span>
+            </p>
+          </section>
+          <section>
+            <img src="" alt="Illustration" longdesc="" />
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Auch wenn es um das Thema <q>Reise</q> geht, gibt es viele Ähnlichkeiten zwischen den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> und den Göttern. Während sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> zwischen vielen Ländern und Kontinenten bewegten, war es auch den Göttern durch den <abbr title="/ˈbɪvrɒst/">Bifröst</abbr> möglich sich zwischen den Welten von <abbr title="/ˈɪɡdrəzɪl/">Yggdrasil</abbr> zu bewegen.</span>
+              <span data-sprache="Englisch">Also the topic of <q>Voyage</q> is something that shows the similarities between the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> and their Gods. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are traveling between the different countries and continents, while the Gods through <abbr title="/ˈbɪvrɒst/">Bifröst</abbr> the travel between the worlds of <abbr title="/ˈɪɡdrəzɪl/">Yggdrasil</abbr>.</span>
+            </p>
+          </section>
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Das Christentum</span>
+              <span data-sprache="Englisch">The Christianity</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Bereits zum Ende der Zeit der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> hielt das Christentum Einzug in die Welt. Mehr und mehr vereinnahmte dieser neue monotheistische Glauben die Welt und verdrängte so nach und nach die nordische Mythologie.</span>
+              <span data-sprache="Englisch">Already at the end of the era of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> Christianity had its influence in the world. This monotheistic belief more and more replaced the Norse Mythology.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Der Einzug des Christentums sorgte in vielerlei Hinsicht für Tumult in der Welt. Nicht nur sorgte diese Umwälzung für Konflikte zwischen Ländern und Königreichen, sondern sogar für Dispute innerhalb von Stämmen und Familien. So bekämpfte beispielsweise Haraldr Blátǫnn, nachdem er sich taufen ließ, seinen eigenen Sohn Sven Gabelbart, der sich vom Christentum abgewandt hatte. Diese und ähnliche Konflikte beeinflussten erheblich den Untergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.</span>
+              <span data-sprache="Englisch">The influence of Christianity was the origin of turmoil all over the world. This revolution was reason for a lot of different conflicts between countries and kingdoms, and even was the reason for disputes within tribes and families. Haraldr Blátǫnn, after converting, fought his own son, Sven Gabelbart, who turned his back on Christianity. This and similar conflicts immensely influenced the downfall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.</span>
+            </p>
+          </section>
+          <section>
+            <img src="" alt="Illustration" longdesc="" />
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Der Siegeszug des Christentums ist neben anderen Faktoren mitverantwortlich für den Untergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Selbstverständlich hat das Christentum nicht eigenhändig die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> bekämpft, sondern beeinflusste diese indirekt. Es lässt vermuten, dass das Christentum eine gewisse abkühlende Wirkung auf das hitzige Kriegergemüt der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> hatte.</span>
+              <span data-sprache="Englisch">The triumph of Christianity is next to other factors responsible for the downfall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Of course, Christianity did not fight the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, but influenced them in an indirect way. It is to be assumed that Christianity had a certain cooling effect on the hot-blooded warrior-spirit.</span>
+            </p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[8,&nbsp;0]</h1>
+        </div>
+
+        <div class="BildTextDreiEins">
+          <section class="Bild">
+            <img src="" alt="Schiffsbau der <abbr title=" ˈviːkɪŋɐ">Víkingr</abbr>" longdesc="" />
+            <p class="BildUnterschrift">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          </section>
+          <section class="Text">
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Das Erbe der Víkingr</span>
+              <span data-sprache="Englisch">The Heritage of Víkingr</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Hinterlassenschaft der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> und ihrer Kultur ist nicht zu unterschätzen. Die Art und Weise, in der sich ihr Reich bis zu seinem Verfall durchsetzte, war einzigartig. So einzigartig, sodass diese Dinge über Jahrhunderte hinweg ihren Weg in die darstellende Kunst oder die Musik gefunden haben.</span>
+              <span data-sprache="Englisch">The heritage of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> is not to be underestimated. The way in which their empire has risen — until their fall — was unique. So unique, that a lot of their culture left behind over the centuries found their way into Art and Music.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Sagen, Legenden und Erzählungen von Göttern überdauerten die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. Die Heldenbilder und fantastischen Erzählungen, die ihre Kultur gebar, inspirieren auch heute noch viele Künstler, Designer, Musiker oder Autoren. Sogar Sportmannschaften nutzen den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Geist für ihren Slogan oder ihr Logo. Eine Beschäftigung, die weit über die Oberflächlichkeit der Marvel-Verfilmungen hinaus reicht.</span>
+              <span data-sprache="Englisch">The Sagas, Legends and Stories of Gods outlived the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. The images of heroism and fantastic stories, born from their culture, up to today still inspires Artists, Designers, Musicians and Authors. Even sports clubs choose the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Spirit as their slogan or their logo. This is are interests that go further than the superficial Marvel film adaptions.</span>
+            </p>
+          </section>
+        </div>
+      </section>
+      <section>
+        <div class="KoordinatenTitel">
+          <h1>[8,-1]</h1>
+          <h2>
+            <span data-sprache="Deutsch" class="Eingliedern">Der Aufstieg und Niedergang der Víkingr</span>
+            <span data-sprache="Englisch">The Rise and Fall of the Víkingr</span>
+          </h2>
+        </div>
+
+        <div class="VierSpalten">
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Die Wikinger</span>
+              <span data-sprache="Englisch">The Vikings</span>
+            </h4>
+
+            <img src="" alt="Bild" longdesc="" />
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Entgegen des allgemeinen Glaubens handelt es sich bei den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> um keine Volksgruppe. Vielmehr werden die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> ihrer Tätigkeit — kriegerische Seefahrende — nach definiert. Somit haben die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> keinen eindeutigen geografischen Ursprung. Allgemein spricht man von drei <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Gruppierungen, den dänischen, norwegischen und schwedischen <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.</span>
+              <span data-sprache="Englisch">In contrast to the popular belief, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are not an ethnic group. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are best to be defined by their activities as warrior-like seafarers. Therefore, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> have no definite geographic origin. Commonly there are three different <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Groups, the Dutch, the Norwegian and the Swedisch <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>.</span>
+            </p>
+          </section>
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Der Aufstieg</span>
+              <span data-sprache="Englisch">The Rise</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Für den Aufstieg der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> gab es viele Faktoren. Vor allem aber taten sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> durch ihre Fähigkeiten in Schiffsbau, Seefahrt, ihre kriegerische Durchschlagskraft und später auch durch ihre Fähigkeiten im Handel hervor. Während ihres Aufstiegs verübten die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> viele Überfälle, Plünderungen und Invasionen. Auch verleibten sie sich die ein oder andere Stadt ein, die sich dann zu wichtigen Handelsknoten entwickelten.</span>
+              <span data-sprache="Englisch">The rise of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was influenced by quite a few factors. The <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were especially famous for their skills in shipbuilding, seafaring, their warrior-like power of impact and later also for their skills in trading. During their rise they successfully attempted a lot of raids, pillages and invasions. They also absorbed a few cities, which then developed into main trading points.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Doch über die verschieden kriegerischen Akte hinaus waren die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auch als Siedler tätig. So besiedelten sie unter anderem Island und Grönland.</span>
+              <span data-sprache="Englisch">But above all warrior-like acts, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> also were settlers. They among others settled in Island or Greenland.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Im Laufe ihres Aufstiegs, wie auch zu ihrer Blütezeit, bewegten sich die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> in weiten Teilen der Welt und landeten unter anderem auch in Nordamerika.</span>
+              <span data-sprache="Englisch">During their rise, and also during their prime-time, the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> traveled through vast parts of our world and so arrived in North America.</span>
+            </p>
+          </section>
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Der Untergang</span>
+              <span data-sprache="Englisch">The Downfall</span>
+            </h4>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Ebenso wie der Aufstieg der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> wirkten auf den Untergang beinahe ebenso viele Faktoren ein.</span>
+              <span data-sprache="Englisch">The fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> was influenced by as many factors as their rise before.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Einerseits war der beinahe flächendeckende Siegeszug des Christentums einer der großen Faktoren, die den Untergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> beeinflussten. Andererseits war es aber die Sesshaftigkeit der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> selbst, die ihren Untergang zu lenken schien. Hierbei ist es natürlich nicht die Sesshaftigkeit selbst, sondern vielmehr die Möglichkeiten, die durch diese den anderen Königreichen entstanden sind. Die kriegerischen Tätigkeiten der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> verebbten und ihre Sesshaftigkeit wurde genutzt, um eben jene Fähigkeiten zu erwerben, die die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> ehemals auszeichneten. So wurden die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> nach und nach aus ihrer Vormachtstellung gedrängt.</span>
+              <span data-sprache="Englisch">On the one hand there was the almost nation-wide triumph of Christianity as one of the bigger factors, that greatly influenced the downfall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>. On the other hand, there was the settledness of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> themselves, which seemed to guide the fall. Of course, it was not the settledness itself, but it was more the possibilities their settledness offered to other kingdoms. The warrior-like acts of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> ebbed away and their settledness was used to learn the same skills, that gave the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> their superiority. This way the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> were pushed out of their supremacy.</span>
+            </p>
+          </section>
+          <section>
+            <h4>
+              <span data-sprache="Deutsch" class="Eingliedern">Das Erbe</span>
+              <span data-sprache="Englisch">The Heritage</span>
+            </h4>
+
+            <img src="" alt="Bild" longdesc="" />
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Trotz der eher kurzlebigen Blütezeit der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> gibt es einiges, was die <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> hinterlassen haben. Eine Hinterlassenschaft, die auch heute noch in vielen Menschen Faszination hervorruft und nicht allzu selten auch zu kreativem Schaffen inspiriert.</span>
+              <span data-sprache="Englisch">In contrast to the shortness of the prime-time of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>, there are quite a few things, that the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> left us. A heritage, which evokes fascination in a lot of people, often this fascination finds expression in artistic creation.</span>
+            </p>
+
+            <p>
+              <span data-sprache="Deutsch" class="Eingliedern">Es ist ein Spektrum kreativer Interpretationen entstanden, wie sie nur um die faszinierendsten historischen Ereignisse herum entstehen können.</span>
+              <span data-sprache="Englisch">There is a wide spectrum of creative interpretations, as it only originates from the most fascinating, historic events.</span>
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="Popup" data-popup="Kontakt">
+    <div>
+      <i class="material-icons Schliessen">close</i>
+
+      <section>
+        <h2>
+          <span data-sprache="Deutsch" class="Eingliedern">Kontakt</span>
+          <span data-sprache="Englisch">Contact</span>
+        </h2>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Diese Webseite, wie auch ihre Unterseiten, stellen ein Projekt dar, das Ich im Rahmen meines Studiums an der <q>Hochschule Mannheim</q> gestaltet habe. Dieses Projekt ist demnach meinem fachlichen Portfolio — <a class="LinkText" href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer">www.andrewerthwein.de</a> — unterzuordnen. Somit haben diese Webseite, wie auch ihre Unterseiten, keinen gewerblichen Charakter. Demnach habe ich nachfolgend Name und Anschrift des Inhabers — André-Pascal Werthwein — aufgeführt.&nbsp;<sup>[§1 Abs. 4 TMG, §55 Abs. 1 RstV]</sup></span>
+          <span data-sprache="Englisch">This website, as well as its subpages, are a project which I created during my studies at <q>Hochschule Mannheim</q>. According to this, this website has to be seen as a part of my professional Portfolio — <a class="LinkText" href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer">www.andrewerthwein.de</a>. Neither this website, nor its subpages, have any kind of commercial character whatsoever. Therefore, I subsequently state Name and Address of the Owner — André-Pascal Werthwein.&nbsp;<sup>[§1 Abs. 4 TMG, §55 Abs. 1 RstV]</sup></span>
+        </p>
+
+        <table class="KontaktTabelle">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">home</i>
+                </p>
+              </td>
+              <td>
+                <address>André-Pascal Werthwein<br>Speyerer Straße 45,<br>68199 Mannheim<br>
+                <span data-sprache="Deutsch" class="Eingliedern">Deutschland</span>
+                <span data-sprache="Englisch">Germany</span>
+                </address>
+              </td>
+            </tr>
+
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">mail_outline</i>
+                </p>
+              </td>
+              <td><address><a class="LinkText" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#97;&#110;&#100;&#114;&#101;&#119;&#101;&#114;&#116;&#104;&#119;&#101;&#105;&#110;&#46;&#100;&#101;">info[at]<span style="display: none;">fuck-the-spam-bot</span>andrewerthwein.de</address></td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">language</i>
+                </p>
+              </td>
+              <td><address><a class="LinkText" href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer">www.andrewerthwein.de</address></td>
+            </tr>
+          <tbody>
+        </table>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Alternativ finden können Sie auch das nachfolgende Kontaktformular nutzen.</span>
+          <span data-sprache="Englisch">Alternatively you could also use the Contact Form provided subsequently.</span>
+        </p>
+      </section>
+
+      <hr class="Drittel">
+
+      <section>
+        <form name="Kontaktformular" method="post" action="/php/kontakt.php" onsubmit="return Validierung()">
+          <table>
+            <thead></thead>
+            <tbody>
+              <tr>
+                <td>
+                  <p>
+                    <span data-sprache="Deutsch" class="Eingliedern">Nachname:</span>
+                    <span data-sprache="Englisch">Surname:</span>
+                  </p>
+                </td>
+                <td><input type="text" name="Nachname" placeholder="Mustermann" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <span data-sprache="Deutsch" class="Eingliedern">Name:</span>
+                    <span data-sprache="Englisch">Name:</span>
+                  </p>
+                </td>
+                <td><input type="text" name="Vorname" placeholder="Maxime" /></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <span data-sprache="Deutsch" class="Eingliedern">Betreff:</span>
+                    <span data-sprache="Englisch">Subject:</span>
+                  </p>
+                </td>
+                <td><input type="text" name="Betreff" placeholder="Muster-Anfrage" /></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <span data-sprache="Deutsch" class="Eingliedern">Nachricht:</span>
+                    <span data-sprache="Englisch">Message:</span>
+                  </p>
+                </td>
+                <td><textarea type="text" name="Nachricht" placeholder="Bitte geben Sie hier ihre Nachricht ein."></textarea></td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    <span data-sprache="Deutsch" class="Eingliedern">e-Mail:</span>
+                    <span data-sprache="Englisch">e-Mail:</span>
+                  </p>
+                </td>
+                <td><input type="email" name="eMail" placeholder="max.mustermann@mail.de" /></td>
+              </tr>
+              <tr id="UnsichtbaresFormularfeld">
+                <td>
+                  <p>
+                    <span data-sprache="Deutsch" class="Eingliedern">e-Mail:</span>
+                    <span data-sprache="Englisch">e-Mail:</span>
+                  </p>
+                </td>
+                <td><input type="email" name="Kontrolle" /></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input id="SendenButton" type="submit" value="Senden" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+    </div>
+  </div>
+
+  <div class="Popup" data-popup="Impressum">
+    <div>
+      <i class="material-icons Schliessen">close</i>
+      <section>
+        <h2>
+          <span data-sprache="Deutsch" class="Eingliedern">Impressum</span>
+          <span data-sprache="Englisch">Imprint</span>
+        </h2>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Diese Webseite, wie auch ihre Unterseiten, stellen ein Projekt dar, das Ich im Rahmen meines Studiums an der <q>Hochschule Mannheim</q> gestaltet habe. Dieses Projekt ist demnach meinem fachlichen Portfolio — <a class="LinkText" href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer">www.andrewerthwein.de</a> — unterzuordnen. Somit haben diese Webseite, wie auch ihre Unterseiten, keinen gewerblichen Charakter. Demnach habe ich nachfolgend Name und Anschrift des Inhabers — André-Pascal Werthwein — aufgeführt.&nbsp;<sup>[§1 Abs. 4 TMG, §55 Abs. 1 RstV]</sup></span>
+          <span data-sprache="Englisch">This website, as well as its subpages, are a project which I created during my studies at <q>Hochschule Mannheim</q>. According to this, this website has to be seen as a part of my professional Portfolio — <a class="LinkText" href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer">www.andrewerthwein.de</a>. Neither this website, nor its subpages, have any kind of commercial character whatsoever. Therefore, I subsequently state Name and Address of the Owner — André-Pascal Werthwein.&nbsp;<sup>[§1 Abs. 4 TMG, §55 Abs. 1 RstV]</sup></span>
+        </p>
+
+        <table class="KontaktTabelle">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">home</i>
+                </p>
+              </td>
+              <td>
+                <address>André-Pascal Werthwein<br>Speyerer Straße 45,<br>68199 Mannheim<br>
+                <span data-sprache="Deutsch" class="Eingliedern">Deutschland</span>
+                <span data-sprache="Englisch">Germany</span>
+                </address>
+              </td>
+            </tr>
+
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">mail_outline</i>
+                </p>
+              </td>
+              <td><address><a class="LinkText" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#97;&#110;&#100;&#114;&#101;&#119;&#101;&#114;&#116;&#104;&#119;&#101;&#105;&#110;&#46;&#100;&#101;">info[at]<span style="display: none;">fuck-the-spam-bot</span>andrewerthwein.de</address></td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">language</i>
+                </p>
+              </td>
+              <td><address><a class="LinkText" href="https://andrewerthwein.de" target="_blank" rel="noopener">www.andrewerthwein.de</address></td>
+            </tr>
+          <tbody>
+        </table>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">
+            <span class="TextVerweis">Alternativ kannst Du auch gerne das <span class="ButtonText" data-popup="Kontakt">Kontaktformular</span> nutzen.</span>
+            <span class="TextVerweis Eingliedern">Alternativ kannst Du auch gerne das <a href="kontakt.html" target="_blank" rel="noopener nofollow noreferrer">Kontaktformular</a> nutzen.</span>
+          </span>
+          <span data-sprache="Englisch">
+            <span class="TextVerweis">Alternatively you could also use the <span class="ButtonText" data-popup="Kontakt">Contact Form</span> provided.</span>
+            <span class="TextVerweis Eingliedern">Alternatively you could also use the <a href="kontakt.html" target="_blank" rel="noopener nofollow noreferrer">Contact Form</a> provided.</span>
+          </span>
+        </p>
+      </section>
+      <section>
+        <h4>
+          <span data-sprache="Deutsch" class="Eingliedern">Haftung für Inhalte</span>
+          <span data-sprache="Englisch">Accountability for Content</span>
+        </h4>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Alle Inhalte und Medien dieser Webseite und ihrer Unterseiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann ich jedoch keine Gewähr übernehmen. Als Diensteanbieter bin ich für die Inhalte auf dieser Webseite und die ihrer Unterseiten nach den allgemeinen Gesetzen verantwortlich.&nbsp;<sup>[§ 7 Abs. 1 TMG]</sup></span>
+          <span data-sprache="Englisch">All contents and media of this website have been created with utmost care. However, I can neither guarantee Accuracy, Completeness nor Topicality. According to statutory provisions, I am responsible for my own contents on this Website, as well as on its subpages.&nbsp;<sup>[§ 7 Abs. 1 TMG]</sup></span>
+        </p>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Ich bin als Diensteanbieter nicht zur Überwachung von übermittelten oder gespeicherten fremden Informationen verpflichtet. Weiterhin bin ich diesbezüglich nicht verpflichtet nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.&nbsp;<sup>[§ 7 Abs. 2 TMG, §§ 8 bis 10 TMG]</sup></span>
+          <span data-sprache="Englisch">I am not obliged to monitor the transmitted or saved information of third parties. Concerning this matter I am also not obliged to investigate circumstances pointing to illegal activities.</span>
+        </p>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Meine Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt.&nbsp;<sup>[§ 7 Abs. 3 Satz 1 TMG]</sup> Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werde ich diese Inhalte unverzüglich entfernen.</span>
+          <span data-sprache="Englisch">My obligations to remove or block the use of information under generally applicable laws remain unaffected by this.&nbsp;<sup>[§ 7 Abs. 3 Satz 1 TMG]</sup> Liability concerning this is first possible with the knowledge of the concrete infringements. With the recognition of infringements I will immediately remove the contents in question.</span>
+        </p>
+      </section>
+      <section>
+        <h4>
+          <span data-sprache="Deutsch" class="Eingliedern">Haftung für Hyperlinks</span>
+          <span data-sprache="Englisch">Accountability for Hyperlinks</span>
+        </h4>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Meine Website, wie auch deren Unterseiten, enthalten Links zu externen Webseiten Dritter. Da ich auf die Inhalte dieser externen Seiten keinen Einfluss habe, kann ich für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte dieser verlinkten, (externen) Webseiten Dritter ist stets der jeweilige Inhaber dieser Webseiten verantwortlich. Diese Links zu (externen) Webseiten Dritter wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverletzungen geprüft. Zu diesem Zeitpunkt waren keine Rechtsverletzungen der verlinkten Webseiten erkennbar.</span>
+          <span data-sprache="Englisch">My website, as well as its subpages, contain hyperlinks to Websites of third parties. I have no influence whatsoever on the contents of these, linked, Websites. Therefore, I also can not be held responsible for the contents of these Websites. For the contents of these Websites (of third parties), is always the owner of the website in question responsible. Before linking to these Websites (of third parties), the websites were checked for infringements. At the time of linking to these websites (of third parties) no infringements whatsoever were recognizable.</span>
+        </p>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Eine permanente Kontrolle der Inhalte dieser verlinkten, externen Webseiten Dritter ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen auf/durch verlinkte/n, externe Webseiten Dritter werden derartige Links unverzüglich entfernt.</span>
+          <span data-sprache="Englisch">A permanent monitoring of contents of these linked Websites of third parties can not be reasonably expected, without any concrete indications of infringements. <strong>With the recognition of infringements I will immediately remove hyperlinks to Websites (of third parties) in question.</strong></span>
+        </p>
+      </section>
+      <section>
+        <h4>
+          <span data-sprache="Deutsch" class="Eingliedern">Urheberrecht</span>
+          <span data-sprache="Englisch">Copyright</span>
+        </h4>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Alle durch den Inhaber — André-Pascal Werthwein — erstellen Inhalte und Medien dieser Website, wie auch deren Unterseiten, unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede andere Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen meiner ausdrücklichen Genehmigung. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.</span>
+          <span data-sprache="Englisch">All contents and media of this Website, as well as its subpages, created by the owner of this Website — André-Pascal Werthwein — are subject to German Copyright Law. The duplication, modification, distribution and any other way of utilization beyond the limits of the Copyright Law need my explicit approval. Downloads and Copies of this Website are allowed only for private, non-commercial use.</span>
+        </p>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Soweit die Inhalte auf dieser Webseite, und deren Unterseiten, nicht von dem Inhaber — André-Pascal Werthwein — erstellt wurden, werden die Urheberrechte Dritter geachtet. Insbesondere werden eben diese Inhalte Dritter als solche gekennzeichnet. Ebenso werden die Rechte etwaiger  urheber geachtet. Solltest Du dennoch auf eine Verletzung des Urheberrechts aufmerksam werden, bitte ich Dich um einen entsprechenden Hinweis. Bei Bekanntwerden von Urheberrechtsverletzungen werde ich derartige Inhalte unverzüglich entfernen.</span>
+          <span data-sprache="Englisch">All the contents of this Website, as well as its subpages, that are not created by the Owner — André-Pascal Werthwein — respect the Copyright of third parties. These contents are explicitly marked as contents of third parties. Furthermore, the rights of co-authors are respected as well. Should you however recognize any infringements, please let me know. <strong>With the recognition of infringements I will immediately remove the contents in question.</strong></span>
+        </p>
+      </section>
+
+      <br>
+
+      <section>
+        <h2>Sitemap</h2>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Hier findest Du alle Unterseiten und Räferenzen dieser Webseite.</span>
+          <span data-sprache="Englisch">Here you can find all subpages and references of this Website.</span>
+        </p>
+
+        <ul class="SitemapListe">
+          <li>
+              <a class="LinkText" href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer nofollow">
+                <span data-sprache="Deutsch" class="Eingliedern">Portfolio — Kommunikationsdesign</span>
+                <span data-sprache="Englisch">Portfolio — Communication Design</span>
+              </a>
+          </li>
+        </ul>
+
+        <ul class="SitemapListe">
+          <li>
+              <a href="dokumentation.html" target="_blank" rel="noopener noreferrer nofollow">
+                <span data-sprache="Deutsch" class="Eingliedern LinkText">Dokumentation</span>
+                <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Konzepte, Präsentation]</span>
+                <span data-sprache="Englisch" class="LinkText">Documentation</span>
+                <span data-sprache="Englisch" class="Kommentar">[Concepts, Presentations]</span>
+              </a>
+          </li>
+          <!--
+          <li>
+              <a href="runen.html" target="_blank" rel="noopener noreferrer nofollow">
+                <span data-sprache="Deutsch" class="Eingliedern LinkText">Víkingr Runen Icon Font</span>
+                <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Dokumentation, Download]</span>
+                <span data-sprache="Englisch" class="LinkText">Víkingr Runes Icon Font</span>
+                <span data-sprache="Englisch" class="Kommentar">[Documentation, Download]</span>
+              </a>
+          </li>
+          -->
+          <li>
+              <a href="quellen.html" target="_blank" rel="noopener noreferrer nofollow">
+                <span data-sprache="Deutsch" class="Eingliedern LinkText">Quellen</span>
+                <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Hinweise]</span>
+                <span data-sprache="Englisch" class="LinkText">Sources</span>
+                <span data-sprache="Englisch" class="Kommentar">[Notice]</span>
+              </a>
+          </li>
+        </ul>
+
+        <ul class="SitemapListe">
+          <li>
+              <a href="kontakt.html" target="_blank" rel="noopener noreferrer nofollow">
+                <span data-sprache="Deutsch" class="Eingliedern LinkText">Kontakt</span>
+                <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Rechtliche Hinweise]</span>
+                <span data-sprache="Englisch" class="LinkText">Contact</span>
+                <span data-sprache="Englisch" class="Kommentar">[Legal Notice]</span>
+              </a>
+          </li>
+          <li>
+              <a href="impressum.html" target="_blank" rel="noopener noreferrer nofollow">
+                <span data-sprache="Deutsch" class="Eingliedern LinkText">Impressum</span>
+                <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Rechtliche Hinweise]</span>
+                <span data-sprache="Englisch" class="LinkText">Imprint</span>
+                <span data-sprache="Englisch" class="Kommentar">[Legal Notice]</span>
+              </a>
+          </li>
+          <li>
+              <a href="datenschutz.html" target="_blank" rel="noopener noreferrer nofollow">
+                <span data-sprache="Deutsch" class="Eingliedern LinkText">Datenschutz</span>
+                <span data-sprache="Deutsch" class="Eingliedern Kommentar">[Rechtliche Hinweise]</span>
+                <span data-sprache="Englisch" class="LinkText">Data Security</span>
+                <span data-sprache="Englisch" class="Kommentar">[Legal Notice]</span>
+              </a>
+          </li>
+        </ul>
+      </section>
+
+      <br>
+
+      <section>
+        <h2>
+          <span data-sprache="Deutsch" class="Eingliedern">Quellen</span>
+          <span data-sprache="Englisch">Sources</span>
+        </h2>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Abschließend findest Du hier alle Quellen, die mir bei meiner Recherche dienlich gewesen sind.</span>
+          <span data-sprache="Englisch">Concluding you will find here all the sources that were very useful during my research.</span>
+        </p>
+
+        <br>
+
+        <ul class="QuellenListe">
+          <li>
+            <a href="http://www.personal.psu.edu/ejp10/blogs/gotunicode/charts/runes.html" target="_blank" rel="noopener noreferrer nofollow">
+              <span data-sprache="Deutsch" class="Eingliedern LinkText">Alt-Nordisches Runen-Alphabet für Webseiten [Unicode]</span>
+              <span data-sprache="Deutsch" class="Eingliedern Kommentar"><time datetime="2018-12-08" pubdate="pubdate">[08/12/2018, 14:49, MEZ]</time>&nbsp; []</span>
+              <span data-sprache="Englisch" class="LinkText">Ancient-Norse Rune-Alphabet for Websites [Unicode]</span>
+              <span data-sprache="Englisch" class="Kommentar"><time datetime="2018-12-08" pubdate="pubdate">[08/12/2018, 14:49, MEZ]</time></span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <div class="Popup" data-popup="Datenschutz">
+    <div>
+      <i class="material-icons Schliessen">close</i>
+      <h2>
+        <span data-sprache="Deutsch" class="Eingliedern">Datenschutz</span>
+        <span data-sprache="Englisch">Data Security</span>
+      </h2>
+    </div>
+  </div>
+
+  <div class="Popup" data-popup="Karte">
+    <div>
+      <i class="material-icons Schliessen">close</i>
+      <section>
+        <h2>
+          <span data-sprache="Deutsch" class="Eingliedern">Wo bin ich? Wohin will ich?</span>
+          <span data-sprache="Englisch">Where am I? Where do I want to go?</span>
+        </h2>
+        <p>
+        <span data-sprache="Deutsch" class="Eingliedern">Klicke mit der Maus auf die Koordinaten, um eine Übersicht des jeweiligen Kapitels zu bekommen. Wenn Du ein Kapitel gefunden hast, das Dich interessiert, dann kannst Du mit einem Klick auf den Link (innerhalb der Kapitelübersicht) in das jeweilige Kapitel springen.</span>
+        <span data-sprache="Englisch">Click on the Coordinates to get an overview of the different chapters. If a chapter peeked your interest, you can jump right in to the chapter, by clicking on the Link (within the overview).</span>
+      </p>
+
+        <br>
+        <section id="PositionUndKapitel">
+          <h1>[<span id="XKoordinate"></span>,<span id="YKoordinate"></span>]</h1>
+
+          <table class="KoordinatenMatrix">
+            <thead></thead>
+            <tbody>
+              <tr>
+                <td data-koordinate="0,1">[0,&nbsp;1]</td>
+                <td data-koordinate="1,1">[1,&nbsp;1]</td>
+                <td data-koordinate="2,1">[2,&nbsp;1]</td>
+                <td data-koordinate="3,1">[3,&nbsp;1]</td>
+                <td data-koordinate="4,1">[4,&nbsp;1]</td>
+                <td data-koordinate="5,1">[5,&nbsp;1]</td>
+                <td data-koordinate="6,1">[6,&nbsp;1]</td>
+                <td data-koordinate="7,1">[7,&nbsp;1]</td>
+                <td data-koordinate="8,1">[8,&nbsp;1]</td>
+              </tr>
+              <tr>
+                <td data-koordinate="0,0">[0,&nbsp;0]</td>
+                <td data-koordinate="1,0">[1,&nbsp;0]</td>
+                <td data-koordinate="2,0">[2,&nbsp;0]</td>
+                <td data-koordinate="3,0">[3,&nbsp;0]</td>
+                <td data-koordinate="4,0">[4,&nbsp;0]</td>
+                <td data-koordinate="5,0">[5,&nbsp;0]</td>
+                <td data-koordinate="6,0">[6,&nbsp;0]</td>
+                <td data-koordinate="7,0">[7,&nbsp;0]</td>
+                <td data-koordinate="8,0">[8,&nbsp;0]</td>
+              </tr>
+              <tr>
+                <td data-koordinate="0,-1">[0,-1]</td>
+                <td data-koordinate="1,-1">[1,-1]</td>
+                <td data-koordinate="2,-1">[2,-1]</td>
+                <td data-koordinate="3,-1">[3,-1]</td>
+                <td data-koordinate="4,-1">[4,-1]</td>
+                <td data-koordinate="5,-1">[5,-1]</td>
+                <td data-koordinate="6,-1">[6,-1]</td>
+                <td data-koordinate="7,-1">[7,-1]</td>
+                <td data-koordinate="8,-1">[8,-1]</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <div class="FloatTrenner"></div>
+
+        <!-- Kapitel [0, 0] - Einleitung -->
+        <section class="KapitelBeschreibung Anzeige" data-koordinate="0,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Einleitung</span>
+            <span data-sprache="Englisch">Introduction</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel führt in das Thema <q>Wikinger</q> und beseitigt dabei erste Trugschlüsse zu dem, was die <q>Wikinger</q> einst waren.</span>
+            <span data-sprache="Englisch">This chapter introduces the topic <q>Vikings</q> and also eliminates erroneous beliefs of what the <q>Vikings<q> actually once have been.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [0, 1] - »Mythologie« -->
+        <section class="KapitelBeschreibung" data-koordinate="0,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Mythologie</span>
+            <span data-sprache="Englisch">Mythology</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel leitet in das Thema der <q>Nordischen Mythologie</q> ein und gibt eine grobe Übersicht zu dem Thema, wie auch den Kapiteln, die darauf folgen.</span>
+            <span data-sprache="Englisch">This chapter introduces the topic of <q>Norse Mythology</q> and gives a rough overview of the topic as well as the chapters following.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [0,-1] - »Etymologie« -->
+        <section class="KapitelBeschreibung" data-koordinate="0,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Etymologie</span>
+            <span data-sprache="Englisch">Etymology</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel beschäftigt sich mit den unterschiedlichen Theorien zu der Herkunft des Wortes <q>Wikinger</q> und wählt die Theorie, die für dieses Projekt relevant und passend erscheint.</span>
+            <span data-sprache="Englisch">This chapter discusses the different theories about the origin of the word <q>Viking</q> and also chooses the theory, which is relevant and fitting for this project.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [1, 0] - »Die Ära der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>« -->
+        <section class="KapitelBeschreibung" data-koordinate="1,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Ära der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+            <span data-sprache="Englisch">The era of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel leitet den Zeitstrahl ein, auf dem die wichtigsten Kapitel der Geschichte der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> zusammengefasst und zeitlich eingeordnet werden.</span>
+            <span data-sprache="Englisch">This chapter introduces the timeline, on which the most important chapters of the history of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> are summarized and arranged in the context of time.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [1, 1] - »Die Götter von Asgard« -->
+        <section class="KapitelBeschreibung" data-koordinate="1,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Götter von Ásgarðr</span>
+            <span data-sprache="Englisch">The Gods of Ásgarðr</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel gibt eine kurze Übersicht zu den Göttern in der <q>Nordischen Mythologie</q> und zeigt mögliche Parallelen zu den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> auf.</span>
+            <span data-sprache="Englisch">This chapter gives a short overview on the Gods of the <q>Norse Mythology</q> and shows a few possible similarities between the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> and their Gods.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [1,-1] - »Die Krieger der Meere« -->
+        <section class="KapitelBeschreibung" data-koordinate="1,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Krieger der Meere</span>
+            <span data-sprache="Englisch">The Warriors of the Seas</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt den <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> selbst vor.</span>
+            <span data-sprache="Englisch">This chapter introduces the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> himself.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [2, 0] - Die Historie -->
+        <section class="KapitelBeschreibung" data-koordinate="2,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Historie</span>
+            <span data-sprache="Englisch">The History</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt einen Teil der wesentlichen, historischen Ereignisse in kurzen und verdichtete Paragrafen dar.</span>
+            <span data-sprache="Englisch">This chapter depicts a part of the most important historic events in small and condensed paragraphs.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [2, 1] - »  den Waffen der Götter« -->
+        <section class="KapitelBeschreibung" data-koordinate="2,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">  den Waffen der Götter</span>
+            <span data-sprache="Englisch">The Armour of the Gods</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel beschäftigt sich eingehend mit den (legendären) Waffen der Götter der <q>Nordischen Mythologie</q>, wie auch deren sagenumwobenen Artefakte.</span>
+            <span data-sprache="Englisch">This chapter discusses the (legendary) Weaponry, as well as the storied Artifacts of the Gods of the <q>Norse Mythology</q> in depth.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [2,-1] - »  den Waffen der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>« -->
+        <section class="KapitelBeschreibung" data-koordinate="2,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">  den Waffen der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+            <span data-sprache="Englisch">The Armour of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel beschäftigt sich eingehend mit den (legendären) Waffen der <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>.</span>
+            <span data-sprache="Englisch">This chapter discusses the (legendary) Weaponry of the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> in depth.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [3, 0] - Die Historie -->
+        <section class="KapitelBeschreibung" data-koordinate="3,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Historie</span>
+            <span data-sprache="Englisch">The History</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt einen Teil der wesentlichen, historischen Ereignisse in kurzen und verdichtete Paragrafen dar.</span>
+            <span data-sprache="Englisch">This chapter depicts a part of the most important historic events in small and condensed paragraphs.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [3, 1] - »Auf einer Reise zwischen den Welten« -->
+        <section class="KapitelBeschreibung" data-koordinate="3,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Auf einer Reise zwischen den Welten</span>
+            <span data-sprache="Englisch">On a journey between the Worlds</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Im Zentrum dieses Kapitel steht die Reise der Götter zwischen den unterschiedlichen Welten der <q>Nordischen Mythologie</q> und somit auch der <q><abbr title="/ˈbɪvrɒst/">Bifröst</abbr></q>.</span>
+            <span data-sprache="Englisch">This chapter is all about the journeys of the Gods between different Worlds of the <q>Norse Mythology</q> and therefore also about the <q><abbr title="/ˈbɪvrɒst/">Bifröst</abbr></q>.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [3,-1] - »Auf einer Reise zwischen den Meeren« -->
+        <section class="KapitelBeschreibung" data-koordinate="3,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Auf einer Reise zwischen den Meeren</span>
+            <span data-sprache="Englisch">On a journey between the Seas</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel konzentriert sich auf die Reise der <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> auf den Meeren und den Schiffbau, der wesentlich zu ihrer Überlegenheit beigetragen hat.</span>
+            <span data-sprache="Englisch">This chapters focuses on the journeys of the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> between the Seas and also on their shipbuilding, which was one of the main factors for their superiority.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [4, 0] - Die Territorien der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr> -->
+        <section class="KapitelBeschreibung" data-koordinate="4,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Territorien der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+            <span data-sprache="Englisch">The Territories of <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel beschäftigt sich mit den Territorien und Zielen der <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>.</span>
+            <span data-sprache="Englisch">This chapter is about the territories and targets of the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [4, 1] - »Die Länder der himmlischen Welten« -->
+        <section class="KapitelBeschreibung" data-koordinate="4,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Länder der himmlischen Welten</span>
+            <span data-sprache="Englisch">The countries of the heavenly Worlds</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt die verschiedenen Länder und deren Einwohner in der <q>Nordischen Mythologie</q> dar.</span>
+            <span data-sprache="Englisch">This chapter depicts the different countries and their inhabitants in the <q>Norse Mythology</q>.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [4,-1] - »Die Länder der irdischen Welten« -->
+        <section class="KapitelBeschreibung" data-koordinate="4,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Länder der irdischen Welten</span>
+            <span data-sprache="Englisch">The countries of the earthly Worlds</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel fokussiert auf die Unterschiede zwischen der Heimat und den Zielen der <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>.</span>
+            <span data-sprache="Englisch">This chapter focuses on the differences between the home and the targets of the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [5, 0] - Die Historie -->
+        <section class="KapitelBeschreibung" data-koordinate="5,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Historie</span>
+            <span data-sprache="Englisch">The History</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt einen Teil der wesentlichen, historischen Ereignisse in kurzen und verdichtete Paragrafen dar.</span>
+            <span data-sprache="Englisch">This chapter depicts a part of the most important historic events in small and condensed paragraphs.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [5, 1] - »Krieger und Gott« -->
+        <section class="KapitelBeschreibung" data-koordinate="5,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Krieger und Gott</span>
+            <span data-sprache="Englisch">Warrior and God<span class="Kommentar">&nbsp;[GER]</span></span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel enthält eine Nacherzählung einer Legende aus der <q>Nordischen Mythologie</q>.</span>
+            <span data-sprache="Englisch">This chapter contains a story of a Legend from the <q>Norse Mythology</q><span class="Kommentar">&nbsp;[GER]</span>.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [5,-1] - »Krieger und Stratege« -->
+        <section class="KapitelBeschreibung" data-koordinate="5,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Krieger und Stratege</span>
+            <span data-sprache="Englisch">Warrior and Strategist</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel beschäftigt sich mit den Eigenschaften und Strategien, die den <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>, als Krieger auszeichneten und zu seiner Überlegenheit führten.</span>
+            <span data-sprache="Englisch">This chapter is about the properties and strategies, which characterize the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>, as a Warrior, and were part of his superiority.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [6, 0] - Die Historie -->
+        <section class="KapitelBeschreibung" data-koordinate="6,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Die Historie</span>
+            <span data-sprache="Englisch">The History</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt einen Teil der wesentlichen, historischen Ereignisse in kurzen und verdichtete Paragrafen dar.</span>
+            <span data-sprache="Englisch">This chapter depicts a part of the most important historic events in small and condensed paragraphs.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [6, 1] - »Der tote Kriegern unter Göttern« -->
+        <section class="KapitelBeschreibung" data-koordinate="6,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Der tote Kriegern unter Göttern</span>
+            <span data-sprache="Englisch">The dead Warrior amongst Gods</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel befasst sich mit dem Platz des mächtigen <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> unter den Göttern — nach seinem Tod.</span>
+            <span data-sprache="Englisch">This chapter addresses the position of the mighty <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> amongst the Gods — after having died.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [6,-1] - »Der Tod eines Kriegers« -->
+        <section class="KapitelBeschreibung" data-koordinate="6,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Der Tod eines Kriegers</span>
+            <span data-sprache="Englisch">The Death of a Warrior</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel fasst auf die verschieden Riten und Aspekte eines <q>Nordischen Begräbnisses</q> zusammen.</span>
+            <span data-sprache="Englisch">This chapter summarizes the different rites and aspects of a <q>Norse Funeral</q>.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [7, 0] - »Das Ende einer Ära« -->
+        <section class="KapitelBeschreibung" data-koordinate="7,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Das Ende einer Ära</span>
+            <span data-sprache="Englisch">The End of an Era</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt die abschließenden, historischen Ereignisse in kurzen und verdichtete Paragrafen dar.</span>
+            <span data-sprache="Englisch">This chapter depicts the closing, historic events in small and condensed paragraphs.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [7, 1] - »Von Göttern zu Gott« -->
+        <section class="KapitelBeschreibung" data-koordinate="7,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Von Göttern zu Gott</span>
+            <span data-sprache="Englisch">From Gods to God</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt einen der Gründe für den Untergang <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> dar — den Aufstieg der Christentums.</span>
+            <span data-sprache="Englisch">This chapter depicts one of the reasons for the decay of the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> — the Rise of Christianity.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [7,-1] - »Vom Krieger zum Händler« -->
+        <section class="KapitelBeschreibung" data-koordinate="7,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Vom Krieger zum Händler</span>
+            <span data-sprache="Englisch">From Warrior to Merchant</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel stellt einen der Gründe für den Untergang <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> dar — den Wandel vom Krieger zum Händler.</span>
+            <span data-sprache="Englisch">This chapter depicts one of the reasons for the decay of the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> — the Change from Warrior to Merchant.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [8, 0] - Abschluss -->
+        <section class="KapitelBeschreibung" data-koordinate="8,0">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Abschluss</span>
+            <span data-sprache="Englisch">Conclusion</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel schließt das Projekt ab.</span>
+            <span data-sprache="Englisch">This chapter concludes the project.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [8, 1] - »Aufstieg und Niedergang der Götter« -->
+        <section class="KapitelBeschreibung" data-koordinate="8,1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Aufstieg und Niedergang der Götter</span>
+            <span data-sprache="Englisch">Rise and Fall of the Gods</span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel fasst den Aufstieg, den Zenit, wie auch den Verfall der nordischen Göttern zusammen.</span>
+            <span data-sprache="Englisch">This chapter summarizes the rise, the zenith, as well as the fall of the Norse Gods.</span>
+          </p>
+        </section>
+
+        <!-- Kapitel [8,-1] - »Aufstieg und Niedergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>« -->
+        <section class="KapitelBeschreibung" data-koordinate="8,-1">
+          <h4>
+            <span data-sprache="Deutsch" class="Eingliedern">Aufstieg und Niedergang der <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+            <span data-sprache="Englisch">Rise and Fall of the <abbr title="ˈviːkɪŋɐ">Víkingr</abbr></span>
+          </h4>
+          <p>
+            <span data-sprache="Deutsch" class="Eingliedern">Dieses Kapitel fasst den Aufstieg, den Zenit, wie auch den Verfall der <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q> zusammen.</span>
+            <span data-sprache="Englisch">This chapter summarizes the rise, the zenith, as well as the fall of the <q><abbr title="ˈviːkɪŋɐ">Víkingr</abbr></q>.</span>
+          </p>
+        </section>
+      </section>
+    </div>
+  </div>
+
+  <div class="Popup" data-popup="Steuerung">
+    <div>
+      <i class="material-icons Schliessen">close</i>
+
+      <section>
+        <h2>Navigation</h2>
+      </section>
+
+      <section>
+        <h4>On-Screen-Navigation</h4>
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Diese Website beschäftigt sich eingehend mit der <q>Ära der Wikinger</q>, vor allem mit dem Fokus auf den <q>Aufstieg</q> und <q>Niedergang</q> dieser anfangs kriegerischen Seefahrer-Kultur.</span>
+          <span data-sprache="Englisch">This website is all about the <q>Viking Era</q>, focusing on the <q>Rise</q> as well as the <q>Downfall</q> of the in their beginning warlike seafarer-culture.</span>
+        </p>
+
+        <br>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">  den Pfeilen am Bildschirmrand kannst Du durch die verschiedenen Kapitel dieser Webseite navigieren.</span>
+          <span data-sprache="Englisch">Using the arrows near the borders of the screen you can navigate through the different chapters of this website.</span>
+        </p>
+
+        <br>
+
+        <table class="Zeichenkodierung">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">keyboard_arrow_up</i>&nbsp;<em>oder</em>&nbsp;<i class="material-icons">keyboard_arrow_down</i>
+                </p>
+              </td>
+              <td>
+                <span data-sprache="Deutsch" class="Eingliedern">  diesen Pfeilen kannst Du zwischen drei Kapiteln eines Zeitabschnitts navigieren. Hier werden detaillierte Zusatzinformationen zu dem zeitlichen Abschnitt oder einem verwandten Thema geboten.</span>
+                <span data-sprache="Englisch">Using these arrows you can navigate between three chapters regarding a single time-period. Those chapters offer detailed information on the currently chosen period or related topics.</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">keyboard_arrow_left</i>&nbsp;<em>oder</em>&nbsp;<i class="material-icons">keyboard_arrow_right</i>
+                </p>
+              </td>
+              <td>
+                <span data-sprache="Deutsch" class="Eingliedern">  diesen Pfeilen kannst Du Dich auf dem Zeitstahl bewegen und in der Geschichte der Wikinger springen.</span>
+                <span data-sprache="Englisch">Using these arrows you can navigate on the timeline, and go through the history of the Vikings.</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>
+                  <i class="material-icons">first_page</i>
+                </p>
+              </td>
+              <td>
+                <span data-sprache="Deutsch" class="Eingliedern">  diesem Pfeil kannst Du zum Anfang dieser Webseite zurückkehren.</span>
+                <span data-sprache="Englisch">Using this arrow you can return to beginning of this website.</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <br>
+
+      <section>
+        <h4>
+          <span data-sprache="Deutsch" class="Eingliedern">Tastatur-Steuerung</span>
+          <span data-sprache="Englisch">Keyboard-Navigation</span>
+        </h4>
+
+        <p>
+          <span data-sprache="Deutsch" class="Eingliedern">Zusätzlich zu der <q>On-Screen-Navigation</q> ist auch eine Steuerung der Website mit der Tastatur möglich.</span>
+          <span data-sprache="Englisch">Additional to the <q>On-Screen-Navigation</q> you can also use your keyboard to navigate on this website.</span>
+        </p>
+
+        <br>
+
+        <table class="Zeichenkodierung">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td>
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Pfeiltasten</span>
+                <span data-sprache="Englisch">Arrow Keys</span>
+              </p>
+            </td>
+              <td>
+              <span data-sprache="Deutsch" class="Eingliedern">Analog zu der <q>On-Screen-Steuerung</q> kannst Du auf mit den Pfeiltasten zwischen den einzelnen Kapiteln springen. Die Pfeiltasten <q>Oben</q> und <q>Unten</q> ermöglichen die Wahl eines Kapitels innerhalb eines Zeitabschnitts, während die Pfeiltasten <q>Links</q> und <q>Rechts</q> die Navigation durch die Geschichte ermöglichen.</span>
+              <span data-sprache="Englisch">Similar to the <q>On-Screen-Navigation</q> you can use the arrow keys to navigate between the different chapters. The keys <q>Up</q> and <q>Down</q> enable you to choose chapters within a period of time. The keys <q>left</q> and <q>right</q> on the other hands enable you to navigate through the history.</span>
+            </td>
+            </tr>
+
+            <tr>
+              <td>
+              <p>
+                <span data-sprache="Deutsch" class="Eingliedern">Leertaste</span>
+                <span data-sprache="Englisch">Spacebar</span>
+              </p>
+            </td>
+              <td>
+              <span data-sprache="Deutsch" class="Eingliedern">Durch Drücken der <q>Leertaste</q> kehrst Du an den Anfang dieser Webseite zurück.</span>
+              <span data-sprache="Englisch">By hitting the spacebar you can return to the beginning of the website.</span>
+            </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <br>
+
+      <section>
+        <p class="Kommentar">
+          <span data-sprache="Deutsch" class="Eingliedern">  einem Klick auf <span class="ButtonText" data-popup="Karte">[X,Y]</span>, kannst Du Dir Deine aktuelle Position auf der Webseite, wie auch eine Übersicht der verfügbaren Kapitel anzeigen lassen.</span>
+          <span data-sprache="Englisch">By clicking on <span class="ButtonText" data-popup="Karte">[X,Y]</span> you can get your position on the website, as well as an overview on the different chapters this website has to offer.</span>
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <footer class="RechtlicheVerweise">
+    <div>
+      <span data-popup="Kontakt">
+        <span data-sprache="Deutsch" class="Eingliedern">Kontakt</span>
+      <span data-sprache="Englisch">Contact</span>
+      </span>
+      <span data-popup="Impressum">
+        <span data-sprache="Deutsch" class="Eingliedern">Impressum</span>
+      <span data-sprache="Englisch">Imprint</span>
+      </span>
+      <span data-popup="Datenschutz">
+        <span data-sprache="Deutsch" class="Eingliedern">Datenschutz</span>
+      <span data-sprache="Englisch">Data Security</span>
+      </span>
+    </div>
+  </footer>
+  <footer class="RechtlicheVerweise Anzeige">
+    <div>
+      <a href="kontakt.html" target="_blank" rel="noopener noreferrer nofollow">
+        <span data-sprache="Deutsch" class="Eingliedern">Kontakt</span>
+        <span data-sprache="Englisch">Contact</span>
+      </a>
+      <a href="impressum.html" target="_blank" rel="noopener noreferrer nofollow">
+        <span data-sprache="Deutsch" class="Eingliedern">Impressum</span>
+        <span data-sprache="Englisch">Imprint</span>
+      </a>
+      <a href="datenschutz.html" target="_blank" rel="noopener noreferrer nofollow">
+        <span data-sprache="Deutsch" class="Eingliedern">Datenschutz</span>
+        <span data-sprache="Englisch">Data Security</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="javascript/warnung.js"></script>
+  <script src="javascript/scrolling.js"></script>
+  <script src="javascript/themennavigation.js"></script>
+  <script src="javascript/sprache.js"></script>
+  <script src="javascript/popups.js"></script>
+  <script src="javascript/slideshow.js"></script>
+  <script src="javascript/kapiteluebersicht.js"></script>
+  <!-- <script src="javascript/koordinatenmatrix.js"></script> -->
+</body>
+
+</html>
