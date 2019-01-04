@@ -26,19 +26,8 @@ window.onload = function() {
 
     document.querySelector('.Popup[data-popup="Steuerung"]').classList.toggle('Anzeige');
 
-    if (GoetterVonAsgardSumme < 10) {
-      GoetterVonAsgardSumme = "0" + GoetterVonAsgardSumme;
       GoetterVonAsgardAusgabeSumme.innerHTML = GoetterVonAsgardSumme;
-    } else {
-      GoetterVonAsgardAusgabeSumme.innerHTML = GoetterVonAsgardSumme;
-    }
-
-    if (ArtefakteVonAsgardSumme < 10) {
-      ArtefakteVonAsgardSumme = "0" + ArtefakteVonAsgardSumme;
       ArtefakteVonAsgardAusgabeSumme.innerHTML = ArtefakteVonAsgardSumme;
-    } else {
-      ArtefakteVonAsgardAusgabeSumme.innerHTML = ArtefakteVonAsgardSumme;
-    }
 }
 
 function RechtlicheVerweiseMenueTauschen() {
