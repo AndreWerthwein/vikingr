@@ -11,6 +11,13 @@ var SchliessenButton = document.querySelectorAll('.Schliessen');
 var RechtlicheVerweise = document.querySelectorAll('.RechtlicheVerweise');
 var OnPageLinks = document.querySelectorAll('.ButtonText');
 
+var GoetterVonAsgardSumme = document.querySelectorAll('.SlideshowInhalt[data-slideshow="GoetterVonAsgard"] section').length;
+var GoetterVonAsgardAusgabeSumme = document.querySelector('.Index[data-slideshow="GoetterVonAsgard"] .IndexSumme');
+
+var ArtefakteVonAsgardSumme = document.querySelectorAll('.SlideshowInhalt[data-slideshow="ArtefakteVonAsgard"] section').length;
+var ArtefakteVonAsgardAusgabeSumme = document.querySelector('.Index[data-slideshow="ArtefakteVonAsgard"] .IndexSumme');
+
+
 //Fallback - Beim Laden der Website werden alle absoluten Links, gegen Popups und ähnliche Verweise getauscht.
 //Wenn Javascript im Browser unterdrückt wird, sind nur absolute Links verfügbar.
 window.onload = function() {
@@ -18,6 +25,20 @@ window.onload = function() {
     TextVerweiseTauschen();
 
     document.querySelector('.Popup[data-popup="Steuerung"]').classList.toggle('Anzeige');
+
+    if (GoetterVonAsgardSumme < 10) {
+      GoetterVonAsgardSumme = "0" + GoetterVonAsgardSumme;
+      GoetterVonAsgardAusgabeSumme.innerHTML = GoetterVonAsgardSumme;
+    } else {
+      GoetterVonAsgardAusgabeSumme.innerHTML = GoetterVonAsgardSumme;
+    }
+
+    if (ArtefakteVonAsgardSumme < 10) {
+      ArtefakteVonAsgardSumme = "0" + ArtefakteVonAsgardSumme;
+      ArtefakteVonAsgardAusgabeSumme.innerHTML = ArtefakteVonAsgardSumme;
+    } else {
+      ArtefakteVonAsgardAusgabeSumme.innerHTML = ArtefakteVonAsgardSumme;
+    }
 }
 
 function RechtlicheVerweiseMenueTauschen() {
