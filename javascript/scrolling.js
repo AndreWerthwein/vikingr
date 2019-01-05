@@ -24,8 +24,6 @@ var PositionX = 0;
 var EndeY = - (FensterHoehe * 2);
 var EndeX = (FensterBreite * Spalten) * (-1) + FensterBreite;
 
-var SchwarzeSpalteX = (FensterBreite * 6) * (-1) + FensterBreite;
-
 function Zuruecksetzen() {
     Zeile.style.marginLeft = 0 + "px";
     Zeile.style.marginTop = - FensterHoehe + "px";

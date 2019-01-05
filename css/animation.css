@@ -6,6 +6,9 @@
 
 .Eingliedern {display: inline-block !important; }
 
+.Fett {font-size: 1.05em !important; 
+       font-weight: 700 !important; }
+
 a:hover,
 a:focus,
 a:active,
