@@ -92,7 +92,7 @@ hr {border: none;
 
 /* User-Select */
 ::selection {background: rgba(255, 255, 255, 0);
-						 color: rgb(0, 0, 0); }
+						 color: rgb(255, 255, 255); }
 
 ::-moz-selection {background: rgba(255, 255, 255, 0);
-									color: rgb(0, 0, 0); }
+									color: rgb(255, 255, 255); }

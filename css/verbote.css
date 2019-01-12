@@ -1,19 +1,5 @@
 /* Button-Markierung unterbinden */
-#Buttons,
-#Persoenlich li,
-#Kategorien li,
-#Jahre li,
-#Sprachen li,
-#Oben
-#BerichtNavigation i,
-.LinkText,
-.LinkMicrosite,
-.MicrositeLink,
-.material-icons,
-.SeitlichesDropdown header,
 small,
-img,
-a,
 marquee {-webkit-touch-callout: none;
          -webkit-user-select: none;
          -khtml-user-select: none;
