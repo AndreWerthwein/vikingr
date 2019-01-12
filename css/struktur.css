@@ -91,13 +91,6 @@ body {width: 100vw;
                               -o-transition: all 0.6s ease-in;
                               transition:  all 0.6s ease-in; }
 
-#ThemenNavigationRechtliches section li:hover,
-#ThemenNavigationRechtliches section li:focus,
-#ThemenNavigationRechtliches section li:active,
-#ThemenNavigation section li:hover,
-#ThemenNavigation section li:focus,
-#ThemenNavigation section li:active {cursor: pointer; }
-
 #ThemenNavigation section p {line-height: 1;
                              margin-top: 6px;
                              letter-spacing: 1px; }
@@ -106,13 +99,6 @@ body {width: 100vw;
                                         margin-top: 4px; }
 
 #ThemenNavigation section[data-popup="Steuerung"] {text-align: center; }
-
-#ThemenNavigation section[data-popup="Karte"]:hover,
-#ThemenNavigation section[data-popup="Karte"]:focus,
-#ThemenNavigation section[data-popup="Karte"]:active,
-#ThemenNavigation section[data-popup="Steuerung"]:hover,
-#ThemenNavigation section[data-popup="Steuerung"]:focus,
-#ThemenNavigation section[data-popup="Steuerung"]:active {cursor: help; }
 
 #ScrollingOben {position: fixed;
                 top: 10px;
@@ -447,8 +433,7 @@ span[data-sprache="Englisch"] {display: none; }
 .FloatTrenner {clear: both !important; }
 
 .KoordinatenMatrix td {width: 40px !important;
-                       padding: 5px 0px;
-                       cursor: pointer; }
+                       padding: 5px 0px; }
 
 .KapitelBeschreibung {display: none; }
 

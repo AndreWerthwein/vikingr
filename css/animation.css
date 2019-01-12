@@ -6,7 +6,7 @@
 
 .Eingliedern {display: inline-block !important; }
 
-.Fett {font-size: 1.05em !important; 
+.Fett {font-size: 1.05em !important;
        font-weight: 700 !important; }
 
 a:hover,
@@ -57,3 +57,29 @@ a:active,
 .LinkText:hover:after,
 .LinkText:focus:after,
 .LinkText:active:after {width: 100% !important; }
+
+/* Cursor-Darstellung */
+abbr:hover,
+abbr:focus,
+abbr:active,
+#SendenButton:hover,
+#SendenButton:focus,
+#SendenButton:active,
+#ThemenNavigationRechtliches section li:hover,
+#ThemenNavigationRechtliches section li:focus,
+#ThemenNavigationRechtliches section li:active,
+#ThemenNavigation section[data-popup="Karte"]:hover,
+#ThemenNavigation section[data-popup="Karte"]:focus,
+#ThemenNavigation section[data-popup="Karte"]:active,
+#ThemenNavigation section[data-popup="Steuerung"]:hover,
+#ThemenNavigation section[data-popup="Steuerung"]:focus,
+#ThemenNavigation section[data-popup="Steuerung"]:active,
+#ThemenNavigation section li:hover,
+#ThemenNavigation section li:focus,
+#ThemenNavigation section li:active,
+.KoordinatenMatrix td:hover,
+.KoordinatenMatrix td:focus,
+.KoordinatenMatrix td:active,
+.MatrizenNavigation:hover,
+.MatrizenNavigation:focus,
+.MatrizenNavigation:active {cursor: pointer; }

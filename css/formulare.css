@@ -22,8 +22,6 @@ form {margin-bottom: 40px; }
 			   border-bottom: 1px black solid;
 			   background-color: white; }
 
-#SendenButton:hover {cursor: pointer; }
-
 ::-webkit-input-placeholder {font-family: 'Roboto', sans-serif;
 							 font-weight: 300;
 							 font-size: 110%;
