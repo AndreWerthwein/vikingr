@@ -1,8 +1,13 @@
 var Dropdown = document.querySelectorAll('#ThemenNavigation section:not(:first-child) ul');
+var DropdownRechtliches = document.querySelectorAll('#ThemenNavigationRechtliches section ul');
 
 function AlleDropdownReduzieren() {
   for (var x = 0; x < Dropdown.length; x = x + 1) {
     Dropdown[x].style.height = "35px";
+  }
+
+  for (var x = 0; x < DropdownRechtliches.length; x = x + 1) {
+    DropdownRechtliches[x].style.height = "35px";
   }
 }
 
@@ -31,7 +36,7 @@ function EnglischeSprache() {
 
 var SprachenButton = document.querySelectorAll('ul[data-navigation="Sprache"] li');
 
-var Sprachen = document.querySelectorAll('#ThemenNavigation section:nth-child(2) ul li .Titel');
+var Sprachen = document.querySelectorAll('li .Titel');
 
 function SprachenAuszeichnungAusblenden() {
   for (var x = 0; x < Sprachen.length; x = x + 1) {
