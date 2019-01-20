@@ -198,6 +198,15 @@ span[data-sprache="Englisch"] {display: none; }
               justify-content: space-between;
               align-items: top; }
 
+.EineSpalte {width: calc(40vw - 15px);
+             height: 70vh;
+             margin: 5vh 5vw;
+             padding-left: 20px;
+             overflow: scroll;
+             direction: rtl; }
+
+.EineSpalte section {direction: ltr; }
+
 .VierSpalten section {width: calc(25% - 15px);
                       height: auto;
                       padding: 0px;
