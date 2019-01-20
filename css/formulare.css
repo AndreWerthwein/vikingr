@@ -2,7 +2,7 @@
 form[name="Kontaktformular"] table {width: 80%; }
 
 form[name="Kontaktformular"] table td:first-child {width: 30%;
-									               vertical-align: top; }
+									               									 vertical-align: top; }
 
 form[name="Kontaktformular"] table td:last-child {width: 60%; }
 

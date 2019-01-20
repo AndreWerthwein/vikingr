@@ -32,8 +32,6 @@ table,
 p {margin-bottom: 10px;
    line-height: 1.4; }
 
-li {line-height: 1.4; }
-
 td p,
 li p {margin-bottom: 0px; }
 
@@ -76,12 +74,6 @@ hr {border: none;
 
 .Viertel {width: calc(100% / 4); }
 
-.SitemapListe,
-.QuellenListe {list-style-type: none;
-               list-style-position: inside; }
-
-.SitemapListe li::before,
-.QuellenListe li::before {content: "—  "; }
 /* Scrollbars */
 ::-webkit-scrollbar {width: 4px; }
 

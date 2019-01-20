@@ -242,11 +242,7 @@ span[data-sprache="Englisch"] {display: none; }
                                                    background-color: transparent !important; }
 
 .Bild img {width: 80%;
-           height: auto;}
-
-.Liste {list-style-type: none; }
-
-.Liste li::before {content: "— "; }
+           height: auto; }
 
 .AusgleichText {margin-top: 35px !important; }
 
