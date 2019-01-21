@@ -22,7 +22,7 @@ $empfaenger = "info@andrewerthwein.de";
 $mail_cc = "";
 
 //Betreff der e-Mail
-$betreff = "Mail von <abbr title="ˈviːkɪŋɐ">Víkingr</abbr>-Projektarbeit";
+$betreff = "Mail von Víkingr-Projektarbeit";
 
 //Erfolgsmeldung — e-Mail-Versand
 $url_versand = "erfolg.html";
@@ -39,7 +39,7 @@ $name_Tag = array();
 $name_Tag[0] = "Sonntag";
 $name_Tag[1] = "Montag";
 $name_Tag[2] = "Dienstag";
-$name_Tag[3] = " twoch";
+$name_Tag[3] = "Mittwoch";
 $name_Tag[4] = "Donnerstag";
 $name_Tag[5] = "Freitag";
 $name_Tag[6] = "Samstag";
