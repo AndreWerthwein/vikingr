@@ -58,6 +58,13 @@ a:active,
 .LinkText:focus:after,
 .LinkText:active:after {width: 100% !important; }
 
+img:hover,
+img:focus,
+img:active {cursor: zoom-in; }
+
+#DetailBild img:hover,
+#DetailBild img:focus,
+#DetailBild img:active {cursor: zoom-out; }
 /* Cursor-Darstellung */
 abbr:hover,
 abbr:focus,

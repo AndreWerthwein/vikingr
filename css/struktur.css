@@ -409,6 +409,13 @@ span[data-sprache="Englisch"] {display: none; }
         background-color: rgb(255, 255, 255);
         display: none; }
 
+#DetailBild img {max-height: 80vh;
+                 text-align: center; }
+
+#DetailBild i {position: fixed;
+               top: 10px;
+               right: 10px; }
+
 .Popup div {width: 50%;
             height: 80%;
             background-color: rbg(255, 255, 255);
