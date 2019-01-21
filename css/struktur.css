@@ -209,9 +209,7 @@ span[data-sprache="Englisch"] {display: none; }
 
 .VierSpalten section {width: calc(25% - 15px);
                       height: auto;
-                      padding: 0px;
-                      /* Im Original entfernen*/
-                      background-color: transparent !important; }
+                      padding: 0px; }
 
 .BildTextDreiEins {width: 80vw;
                    margin: 5vh 5vw;
@@ -250,12 +248,24 @@ span[data-sprache="Englisch"] {display: none; }
                                                    /* Im Original entfernen*/
                                                    background-color: transparent !important; }
 
-.Bild img {width: 80%;
-           height: auto; }
+.Bild img {width: 100%;
+           height: auto;
+           margin-top: 40px; }
+
+.Bild .Hochformat {width: 45%;
+                   position: relative;
+                   margin-left: calc(20vw + 35px); }
+
+.BildTextDreiEins .Bild .Hochformat {width: 30%;
+                                     margin-top: 10px; }
+
+.BildUnterschriftHochformat {margin-left: calc(20vw + 35px); }
 
 .AusgleichText {margin-top: 35px !important; }
 
 .AusgleichUeberschriftEineZeile {margin-top: 25px !important; }
+
+  .VierSpalten .AusgleichUeberschriftEineZeile {margin-top: 30px !important; }
 
 .AusgleichUeberschriftZweiZeilen {margin-top: 61px !important; }
 
