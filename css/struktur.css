@@ -357,6 +357,7 @@ span[data-sprache="Englisch"] {display: none; }
 .Dokumente {direction: rtl; }
 
 .QuellenListe,
+.Quellen h4,
 .Dokumente section {width: 100%;
                     direction: ltr !important; }
 
