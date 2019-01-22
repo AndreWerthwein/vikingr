@@ -13,6 +13,10 @@ body {width: 100vw;
 
 .TextVerweis {display: none; }
 
+#ValhallaHintergrund {background-image: url("../media/bilder/valhalla.jpg") !important;
+                      background-position: center;
+                      background-size: cover;
+                      background-repeat: no-repeat; }
 /* Scrolling Navigation */
 #ThemenNavigationRechtliches,
 #ThemenNavigation,
