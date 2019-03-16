@@ -37,7 +37,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="fallback-touch-icon-57x57-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="fallback-touch-icon-57x57-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="60x60" href="universal-touch-icon-60x60-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios6-touch-icon-77x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios6-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios7-touch-icon-76x76-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-iphone4+-ipod-touch-retina-ios6-touch-icon-114x114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-iphone4+-ipod-touch-retina-ios7-touch-icon-120x120-precomposed.png">
@@ -50,13 +50,14 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="mstile-144x144.png">
 
-  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/fonts.min.css" />
   <link rel="stylesheet" href="css/reset.min.css" />
+  <link rel="stylesheet" href="css/browser.min.css" />
   <link rel="stylesheet" href="css/basis.css" />
   <link rel="stylesheet" href="css/struktur.css" />
-  <link rel="stylesheet" href="css/formulare.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/verbote.css" />
+  <link rel="stylesheet" href="css/formulare.min.css" />
+  <link rel="stylesheet" href="css/animation.min.css" />
+  <link rel="stylesheet" href="css/verbote.min.css" />
 
   <title>Víkingr — Aufstieg und Niedergang eines Reiches</title>
 </head>
@@ -3885,34 +3886,22 @@
 
   <footer class="RechtlicheVerweise">
     <div>
-      <span data-popup="Kontakt">
-        <span data-sprache="Deutsch" class="Eingliedern">Kontakt</span>
-      <span data-sprache="Englisch">Contact</span>
-      </span>
-      <span data-popup="Impressum">
-        <span data-sprache="Deutsch" class="Eingliedern">Impressum</span>
-      <span data-sprache="Englisch">Imprint</span>
-      </span>
-      <span data-popup="Datenschutz">
-        <span data-sprache="Deutsch" class="Eingliedern">Datenschutz</span>
-      <span data-sprache="Englisch">Data Security</span>
-      </span>
+      <span lang="de" class="AktuelleSprache" data-popup="Kontakt">Kontakt</span>
+      <span lang="en" data-popup="Kontakt">Contact</span>
+      <span lang="de" class="AktuelleSprache" data-popup="Impressum">Impressum</span>
+      <span lang="en" data-popup="Impressum">Imprint</span>
+      <span lang="de" class="AktuelleSprache" data-popup="Datenschutz">Datenschutz</span>
+      <span lang="en" data-popup="Datenschutz">Data Security</span>
     </div>
   </footer>
   <footer class="RechtlicheVerweise Anzeige">
     <div>
-      <a href="kontakt.html" target="_blank" rel="noopener noreferrer nofollow">
-        <span data-sprache="Deutsch" class="Eingliedern">Kontakt</span>
-        <span data-sprache="Englisch">Contact</span>
-      </a>
-      <a href="impressum.html" target="_blank" rel="noopener noreferrer nofollow">
-        <span data-sprache="Deutsch" class="Eingliedern">Impressum</span>
-        <span data-sprache="Englisch">Imprint</span>
-      </a>
-      <a href="datenschutz.html" target="_blank" rel="noopener noreferrer nofollow">
-        <span data-sprache="Deutsch" class="Eingliedern">Datenschutz</span>
-        <span data-sprache="Englisch">Data Security</span>
-      </a>
+      <a lang="de" class="AktuelleSprache" href="kontakt.html" target="_blank" rel="noopener noreferrer nofollow">Kontakt</a>
+      <a lang="en" href="kontakt.html#Englisch" target="_blank" rel="noopener noreferrer nofollow">Contact</a>
+      <a lang="de" class="AktuelleSprache" href="impressum.html" target="_blank" rel="noopener noreferrer nofollow">Impressum</a>
+      <a lang="en" href="impressum.html#Englisch" target="_blank" rel="noopener noreferrer nofollow">Imprint</a>
+      <a lang="de" class="AktuelleSprache" href="datenschutz.html" target="_blank" rel="noopener noreferrer nofollow">Datenschutz</a>
+      <a lang="en" href="datenschutz.html#Englisch" target="_blank" rel="noopener noreferrer nofollow">Data Security</a>
     </div>
   </footer>
 

@@ -158,6 +158,8 @@ body {width: 100vw;
 span[data-sprache="Deutsch"],
 span[data-sprache="Englisch"] {display: none; }
 
+[lang="de"], [lang="en"] {display: none; }
+
 /* Inhalt */
 .Koordinaten {color: rgb(128, 128, 128); }
 

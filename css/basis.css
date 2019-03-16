@@ -74,14 +74,6 @@ hr {border: none;
 
 .Viertel {width: calc(100% / 4); }
 
-/* Scrollbars */
-::-webkit-scrollbar {width: 4px; }
-
-::-webkit-scrollbar-track {background-color: rgba(255, 255, 255, 0); }
-
-::-webkit-scrollbar-thumb {background-color: rgb(0, 0, 0);
-                           border-radius: 2px; }
-
 /* User-Select */
 ::selection {background: rgba(255, 255, 255, 0);
 						 color: rgb(255, 255, 255); }

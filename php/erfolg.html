@@ -40,7 +40,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="fallback-touch-icon-57x57-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="fallback-touch-icon-57x57-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="60x60" href="universal-touch-icon-60x60-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios6-touch-icon-77x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios6-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-ipad1-ipad2-ipad-mini-non-retina-ios7-touch-icon-76x76-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-iphone4+-ipod-touch-retina-ios6-touch-icon-114x114-precomposed.png">
   <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-iphone4+-ipod-touch-retina-ios7-touch-icon-120x120-precomposed.png">
@@ -53,13 +53,13 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="mstile-144x144.png">
 
-  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/fonts.min.css" />
   <link rel="stylesheet" href="css/reset.min.css" />
   <link rel="stylesheet" href="css/basis.css" />
   <link rel="stylesheet" href="css/struktur.css" />
-  <link rel="stylesheet" href="css/formulare.css" />
-  <link rel="stylesheet" href="css/animation.css" />
-  <link rel="stylesheet" href="css/verbote.css" />
+  <link rel="stylesheet" href="css/formulare.min.css" />
+  <link rel="stylesheet" href="css/animation.min.css" />
+  <link rel="stylesheet" href="css/verbote.min.css" />
 
   <title>Víkingr — Aufstieg und Niedergang eines Reiches</title>
 </head>
@@ -86,41 +86,27 @@
 
   <div class="Screen">
     <div class="KoordinatenTitel">
-      <h1>[—,&nbsp;—]</h1>
-      <h2>
-        <span data-sprache="Deutsch" class="Eingliedern">Error</span>
-        <span data-sprache="Englisch">Error</span>
-      </h2>
+      <h1>[E,&nbsp;E]</h1>
+      <h2 lang="de" class="AktuelleSprache">Vielen Dank!</h2>
+      <h2 lang="en">Thank you!</h2>
     </div>
 
     <div class="ZweiSpalten">
       <section>
-        <h4>
-          <span data-sprache="Deutsch" class="Eingliedern">Etwas ist schief gelaufen ...</span>
-          <span data-sprache="Englisch">Something went wrong ...</span>
-        </h4>
+        <h4 lang="de" class="AktuelleSprache">Vielen Dank für Deine Nachricht!</h4>
+        <h4 lang="en">Thank you for your message!</h4>
 
-        <p>
-          <span data-sprache="Deutsch" class="Eingliedern">Wenn Du diese Meldung liest, dann hat leider etwas mit Deiner Anfrage nicht geklappt. Bitte versuche es erneut.</span>
-          <span data-sprache="Englisch">If you read this, then there was an Error and your Request could unfortunately not reach me. Please try it again.</span>
-        </p>
+        <p lang="de" class="AktuelleSprache">Gerne komme ich auf deine Worte zurück, sobald es mir möglich ist.</p>
+        <p lang="en">Glady I will get back to you as soon as possible.</p>
 
-        <p class="Kommentar">
-          <span data-sprache="Deutsch" class="Eingliedern">[Wenn Du die Zeit hast, würde ich mich freuen, wenn Du mir einen Bug-Report zukommen lassen würdest. Meine Kontaktdaten findest du unter <a class="LinkText" href="kontakt.html">Kontakt</a>.]</span>
-          <span data-sprache="Englisch">[If you have the time, I would be glad if you would send me a Bug-Report. You can find my contact information in <a class="LinkText" href="kontakt.html">Contact</a>.]</span>
-        </p>
+        <p lang="de" class="Kommentar AktuelleSprache">[Für Deinen Nutzer-Komfort wirst du in den nächsten Sekunden auf die Projektseite umgeleitet.]</p>
+        <p lang="en" class="Kommentar">[For your User-Comfort you will be forwarded to the Project Page in a few seconds.]</p>
 
-        <p class="Kommentar">
-          <span data-sprache="Deutsch" class="Eingliedern">[Für Deinen Nutzer-Komfort wirst du in den nächsten Sekunden auf die Projektseite umgeleitet.]</span>
-          <span data-sprache="Englisch">[For your User-Comfort you will be forwarded to the Project Page in a few seconds.]</span>
-        </p>
-
-        <a href="index.html">
-          <p>
-            <i class="material-icons">keyboard_arrow_right</i>
-            <span data-sprache="Deutsch" class="LinkText Eingliedern">Projektseite</span>
-            <span data-sprache="Englisch" class="LinkText">Project Page</span>
-          </p>
+        <a lang="de" class="AktuelleSprache" href="index.html">
+          <p><i class="material-icons">keyboard_arrow_right</i>&nbsp;Projektseite</p>
+        </a>
+        <a lang="en" href="index.html">
+          <p><i class="material-icons">keyboard_arrow_right</i>&nbsp;Project Page</p>
         </a>
       </section>
       <section></section>
@@ -129,18 +115,12 @@
 
   <footer class="RechtlicheVerweise Anzeige">
     <div>
-      <a href="kontakt.html" target="_blank" rel="noopener noreferrer nofollow">
-        <span data-sprache="Deutsch" class="Eingliedern">Kontakt</span>
-        <span data-sprache="Englisch">Contact</span>
-      </a>
-      <a href="impressum.html" target="_blank" rel="noopener noreferrer nofollow">
-        <span data-sprache="Deutsch" class="Eingliedern">Impressum</span>
-        <span data-sprache="Englisch">Imprint</span>
-      </a>
-      <a href="datenschutz.html" target="_blank" rel="noopener noreferrer nofollow">
-        <span data-sprache="Deutsch" class="Eingliedern">Datenschutz</span>
-        <span data-sprache="Englisch">Data Security</span>
-      </a>
+      <a lang="de" class="AktuelleSprache" href="kontakt.html" target="_blank" rel="noopener noreferrer nofollow">Kontakt</a>
+      <a lang="en" href="kontakt.html#Englisch" target="_blank" rel="noopener noreferrer nofollow">Contact</a>
+      <a lang="de" class="AktuelleSprache" href="impressum.html" target="_blank" rel="noopener noreferrer nofollow">Impressum</a>
+      <a lang="en" href="impressum.html#Englisch" target="_blank" rel="noopener noreferrer nofollow">Imprint</a>
+      <a lang="de" class="AktuelleSprache" href="datenschutz.html" target="_blank" rel="noopener noreferrer nofollow">Datenschutz</a>
+      <a lang="en" href="datenschutz.html#Englisch" target="_blank" rel="noopener noreferrer nofollow">Data Security</a>
     </div>
   </footer>
 
