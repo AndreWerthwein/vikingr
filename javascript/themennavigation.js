@@ -1,4 +1,5 @@
 var DropdownButton = document.querySelectorAll('#ThemenNavigation section:not(:first-child) ul li:first-child');
+alert(DropdownButton.length);
 var Dropdown = document.querySelectorAll('#ThemenNavigation section:not(:first-child) ul');
 var AktuellesDropdown = "";
 
@@ -70,7 +71,7 @@ for (var x = 1; x < 12; x = x + 1) {
 
     AlleAuszeichnungenAusblenden();
 
-    this.querySelector('.Titel').classList.add('Fett');
+    //this.querySelector('.Titel').classList.add('Fett');
 
       PositionX = ThemaKoordinatenX * FensterBreite * (-1);
 

@@ -1,65 +1,49 @@
-var Dropdown = document.querySelectorAll('#ThemenNavigation section:not(:first-child) ul');
-var DropdownRechtliches = document.querySelectorAll('#ThemenNavigationRechtliches section ul');
+var SprachenNavigation = document.querySelectorAll('ul[data-navigation="Sprache"] li:not(:first-child)');
 
-function AlleDropdownReduzieren() {
-  for (var x = 0; x < Dropdown.length; x = x + 1) {
-    Dropdown[x].style.height = "35px";
-  }
+var DeutscheElemente = document.querySelectorAll('[lang="de"]');
+var EnglischeElemente = document.querySelectorAll('[lang="en"]');
 
-  for (var x = 0; x < DropdownRechtliches.length; x = x + 1) {
-    DropdownRechtliches[x].style.height = "35px";
+function AlleAuszeichnungenEntfernen() {
+  for (var x = 0; x < SprachenNavigation.length; x = x + 1) {
+    SprachenNavigation[x].classList.remove('Fett');
   }
 }
+function Deutsch() {
+  for (var x = 0; x < EnglischeElemente.length; x = x + 1) {
+    EnglischeElemente[x].classList.remove('AktuelleSprache');
+  }
 
-var Deutsch = document.querySelectorAll('span[data-sprache="Deutsch"]');
-var Englisch = document.querySelectorAll('span[data-sprache="Englisch"]');
-
-function DeutscheSprache() {
-    for (var x = 0; x < Englisch.length; x = x + 1) {
-        Englisch[x].classList.remove('Eingliedern');
-    }
-
-    for (var x = 0; x < Deutsch.length; x = x + 1) {
-        Deutsch[x].classList.add('Eingliedern');
-    }
-}
-
-function EnglischeSprache() {
-    for (var x = 0; x < Deutsch.length; x = x + 1) {
-        Deutsch[x].classList.remove('Eingliedern');
-    }
-
-    for (var x = 0; x < Englisch.length; x = x + 1) {
-        Englisch[x].classList.add('Eingliedern');
-    }
-}
-
-var SprachenButton = document.querySelectorAll('ul[data-navigation="Sprache"] li');
-
-var Sprachen = document.querySelectorAll('li .Titel');
-
-function SprachenAuszeichnungAusblenden() {
-  for (var x = 0; x < Sprachen.length; x = x + 1) {
-      Sprachen[x].classList.remove('Fett');
+  for (var x = 0; x < DeutscheElemente.length; x = x + 1) {
+    DeutscheElemente[x].classList.add('AktuelleSprache');
   }
 }
 
-for (var x = 1; x < SprachenButton.length; x = x + 1) {
-    SprachenButton[x].addEventListener('click', function(e) {
-        e.preventDefault();
+function Englisch() {
+  for (var x = 0; x < DeutscheElemente.length; x = x + 1) {
+    DeutscheElemente[x].classList.remove('AktuelleSprache');
+  }
 
-        SprachenAuszeichnungAusblenden();
+  for (var x = 0; x < EnglischeElemente.length; x = x + 1) {
+    EnglischeElemente[x].classList.add('AktuelleSprache');
+  }
+}
 
-        this.querySelector('.Titel').classList.add('Fett');
+for (var x = 0; x < SprachenNavigation.length; x = x + 1) {
+  SprachenNavigation[x].addEventListener('click', function(e) {
+    e.preventDefault();
 
-        var SprachWahl = this.dataset.sprache;
+    var GewaehlteSprache = this.dataset.sprache;
 
-        if (SprachWahl === "Englisch") {
-            EnglischeSprache();
-        } else {
-            DeutscheSprache();
-        }
+    if (GewaehlteSprache === "Deutsch") {
+      Deutsch();
 
-        AlleDropdownReduzieren();
-    });
+      AlleAuszeichnungenEntfernen()
+      this.classList.add('Fett');
+    } else {
+      Englisch();
+
+      AlleAuszeichnungenEntfernen()
+      this.classList.add('Fett');
+    }
+  })
 }

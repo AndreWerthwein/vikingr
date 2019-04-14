@@ -63,23 +63,37 @@
 </head>
 
 <body>
-  <nav id="ThemenNavigationRechtliches">
+  <nav id="ThemenNavigation">
     <section>
-      <ul data-navigation="Sprache">
-        <li data-navigation="Sprache">
-          <span data-sprache="Deutsch" class="Eingliedern">Sprache</span><span data-sprache="Englisch">Language</span>
-        </li>
-        <li data-sprache="Deutsch">
-          <span class="Titel"><span data-sprache="Deutsch" class="Eingliedern">Deutsch</span><span data-sprache="Englisch">German</span></span>
-        </li>
-        <li data-sprache="Englisch">
-          <span class="Titel"><span data-sprache="Deutsch" class="Eingliedern">Englisch</span><span data-sprache="Englisch">English</span></span>
-        </li>
+      <i class="material-icons Anzeige" id="ScrollingStart">first_page</i>
+    </section>
+    <section>
+      <ul lang="de" class="AktuelleSprache" data-navigation="Sprache">
+        <li data-navigation="Sprache">Sprache</li>
+        <li data-sprache="Deutsch" class="Fett">Deutsch</li>
+        <li data-sprache="Englisch">Englisch</li>
+      </ul>
+      <ul lang="en" data-navigation="Sprache">
+        <li data-navigation="Sprache">Language</li>
+        <li data-sprache="Deutsch">German</li>
+        <li data-sprache="Englisch">English</li>
       </ul>
     </section>
     <section>
-      <p><a href="index.html" rel="noreferrer">Víkingr</a></p>
+      <ul lang="de" class="AktuelleSprache" data-navigation="Thema">
+        <li data-navigation="Thema"><span class="Kommentar">[X,&nbsp;Y]&nbsp;</span>Kapitel wählen ...</li>
+        <li><a href="dokumentation.html" target="_blank" rel="noopener noreferrer"><span class="Kommentar">[D,&nbsp;D]&nbsp;</span>Dokumentation</a></li>
+        <li><a href="quellen.html" target="_blank" rel="noopener noreferrer nofollow"><span class="Kommentar">[Q,&nbsp;Q]&nbsp;</span>Quellen</a></li>
+      </ul>
+
+      <ul lang="en" data-navigation="Thema">
+        <li data-navigation="Thema"><span class="Kommentar">[X,&nbsp;Y]&nbsp;</span>Choose a chapter ...</li>
+        <li><a href="dokumentation.html" target="_blank" rel="noopener noreferrer"><span class="Kommentar">[D,&nbsp;D]&nbsp;</span>Documentation</a></li>
+        <li><a href="quellen.html" target="_blank" rel="noopener noreferrer nofollow"><span class="Kommentar">[Q,&nbsp;Q]&nbsp;</span>Sources</a></li>
+      </ul>
     </section>
+    <section></section>
+    <section></section>
   </nav>
 
   <!-- Java Script Warnung -->
@@ -265,7 +279,7 @@
   </footer>
 
   <script src="javascript/warnung.js"></script>
-  <script src="javascript/themennavigationrechtliches.js"></script>
+  <script src="javascript/themennavigation.js"></script>
   <script src="javascript/sprache.js"></script>
 </body>
 
