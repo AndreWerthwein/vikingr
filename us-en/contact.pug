@@ -42,7 +42,7 @@ head
   link(rel="apple-touch-icon-precomposed" sizes="152x152" href="../favicons/touch-icon-ipad.png")
   link(rel="apple-touch-icon-precomposed" sizes="152x152" href="../favicons/apple-ipad-retina-ios7-touch-icon-152x152-precomposed.png")
   link(rel="apple-touch-icon-precomposed" sizes="167x167" href="../favicons/touch-icon-ipad-retina.png")
-  link(rel="apple-touch-icon-precomposed" sizes="180x180" href=".../favicons/apple-touch-icon.png")
+  link(rel="apple-touch-icon-precomposed" sizes="180x180" href="../favicons/apple-touch-icon.png")
   link(rel="shortcut icon" sizes="196x196" href="../favicons/chromeapp-touch-icon-196x196-precomposed.png")
   meta(name="msapplication-TileColor" content="#ffffff")
   meta(name="msapplication-TileImage" content="../favicons/mstile-144x144.png")
@@ -83,25 +83,23 @@ body
     
     section
     section
-  
+
   //- javascript warning
   marquee#warning-javascript Please activate Java Script for this website, to experience the full functionality.
-
+  
   div.screen
     div.title-coordinates
       h1 [§,&nbsp;§]
-      h2 Imprint
+      h2 Contact
 
-    div.columns-one
+    div.columns-two
       section
         h4 Contact
 
-        p This website, as well as its subpages, are a project which I created during my studies at <q>Hochschule Mannheim</q>. According to this, this website has to be seen as a part of my professional Portfolio —&nbsp;
+        p This website, as well as its subpages, are a project which I created during my studies at »Hochschule Mannheim«. According to this, this website has to be seen as a part of my professional Portfolio —&nbsp;
           a.anchor-text(href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer") www.andrewerthwein.de
           | . Neither this website, nor its subpages, have any kind of commercial character whatsoever. Therefore, I subsequently state Name and Address of the Owner — André-Pascal Werthwein.&nbsp;
           sup [§1 Abs. 4 TMG, §55 Abs. 1 RstV]
-
-        br
 
         table.table-contact
           thead
@@ -138,43 +136,66 @@ body
                 address
                   a.anchor-text(href="https://andrewerthwein.de" target="_blank" rel="noopener noreferrer") www.andrewerthwein.de
 
-      section
-        h4 Accountability for Content
-
-        p All contents and media of this website have been created with utmost care. However, I can neither guarantee Accuracy, Completeness nor Topicality. According to statutory provisions, I am responsible for my own contents on this Website, as well as on its subpages.&nbsp;
-          sup [§ 7 Abs. 1 TMG]
-
-        p I am not obliged to monitor the transmitted or saved information of third parties. Concerning this matter I am also not obliged to investigate circumstances pointing to illegal activities.
-
-        p My obligations to remove or block the use of information under generally applicable laws remain unaffected by this.&nbsp;
-          sup [§ 7 Abs. 3 Satz 1 TMG]&nbsp;
-          | Liability concerning this is first possible with the knowledge of the concrete infringements. With the recognition of infringements I will immediately remove the contents in question.
-      
+        p Alternatively you could also use the Contact Form provided subsequently.
 
       section
-        h4 Accountability for Hyperlinks
+        h4 Contact Form
 
-        p My website, as well as its subpages, contain hyperlinks to Websites of third parties. I have no influence whatsoever on the contents of these, linked, Websites. Therefore, I also can not be held responsible for the contents of these Websites. For the contents of these Websites
-          span.comment [of third parties]
-          | , is always the owner of the website in question responsible. Before linking to these Websites
-          span.comment [of third parties]
-          | , the websites were checked for infringements. At the time of linking to these websites&nbsp;
-          span.comment [of third parties]
-          | &nbsp;no infringements whatsoever were recognizable.
+        p The data that is compiled by the form is only used for communication purposes. (The data will not be processed or stored in any other way.) Furthermore, the data-traffic from the form to the server is secured by a https://-Cerificate. Should you still have concerns about, please use this e-mail-address:&nbsp;
+          a.anchor-text(href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#97;&#110;&#100;&#114;&#101;&#119;&#101;&#114;&#116;&#104;&#119;&#101;&#105;&#110;&#46;&#100;&#101;") info[at]
+            span(style="display: none;") fuck-the-spam-bot
+            | andrewerthwein.de
+          | .
 
-        p A permanent monitoring of contents of these linked Websites of third parties can not be reasonably expected, without any concrete indications of infringements.&nbsp;
-          strong With the recognition of infringements I will immediately remove hyperlinks to Websites&nbsp;
-            span.comment [of third parties]
-            | &nbsp;in question.
-      
+        br
 
-      section
-        h4 Copyright
-
-        p All contents and media of this Website, as well as its subpages, created by the owner of this Website — André-Pascal Werthwein — are subject to German Copyright Law. The duplication, modification, distribution and any other way of utilization beyond the limits of the Copyright Law need my explicit approval. Downloads and Copies of this Website are allowed only for private, non-commercial use.
-
-        contents are explicitly marked as contents of third parties. Furthermore, the rights of co-authors are respected as well. Should you however recognize any infringements, please let me know.&nbsp;
-          strong With the recognition of infringements I will immediately remove the contents in question.
+        form(name="contact-form" method="post" action="php/contact.php")
+          table
+            thead
+            tbody
+              tr
+                td 
+                  p Surname:
+                td
+                  input(type="text" name="surname" placeholder="Mustermann")
+              tr
+                td 
+                  p Name:
+                td
+                  input(type="text" name="name" placeholder="Maxime")
+              tr
+                td &nbsp;
+                td &nbsp;
+              tr
+                td 
+                  p Subject:
+                td
+                  input(type="text" name="subject" placeholder="What is your message about?")
+              tr
+                td &nbsp;
+                td &nbsp;
+              tr
+                td 
+                  p Message:
+                td
+                  textarea(type="text" name="message" placeholder="Please enter your message here.")
+              tr
+                td 
+                  p e-Mail:
+                td
+                  input(type="email" name="email" placeholder="max.mustermann@mail.com")
+              tr#formfield-anti-spam
+                td 
+                  p e-Mail:
+                td
+                  input(type="email" name="formiel-anti-spam")
+              tr
+                td &nbsp;
+                td &nbsp;
+              tr
+                td 
+                td
+                  input#button-send(type="submit" value="Send")
 
   footer.legal-information
     div
@@ -182,6 +203,6 @@ body
       a(href="./imprint.html" target="_blank" rel="noopener noreferrer nofollow") Imprint
       a(href="./data-policy.html" target="_blank" rel="noopener noreferrer nofollow") Data Policy
 
-  script(src="./javascript/warnung.js")
-  script(src="./javascript/themennavigation.js")
-  script(src="./javascript/sprache.js")
+  script(src="../javascript/warnung.js")
+  script(src="../javascript/themennavigation.js")
+  script(src="../javascript/sprache.js")
